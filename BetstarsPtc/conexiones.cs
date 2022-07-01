@@ -44,7 +44,7 @@ namespace BetstarsPtc
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
-
+                conexiones.AgregarApuesta(Ganador, Puntos1, Puntos2, Apuesta, usuario);
             }
             else
             {
