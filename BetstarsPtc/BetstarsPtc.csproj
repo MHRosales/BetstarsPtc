@@ -82,6 +82,7 @@
     <Content Include="EstilosCss\Login2.css" />
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
+    <Content Include="Imagenes\Video5.mp4" />
     <Content Include="Imagenes\Video4.mp4" />
     <Content Include="Imagenes\Video3.mp4" />
     <Content Include="Imagenes\Video2.mp4" />

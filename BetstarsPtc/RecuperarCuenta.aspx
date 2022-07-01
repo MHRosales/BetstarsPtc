@@ -62,7 +62,7 @@
         </div>
         <asp:Literal ID="alertas" runat="server" Text=""></asp:Literal>
         <script src="js/bootstrap.min.js"></script>
-        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video4.mp4" type="video/mp4" /></video>
+        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video5.mp4" type="video/mp4" /></video>
     </form>
 </body>
 </html>

@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div class="myform-bottom">
-                            <form role="form" action="" method="post" class=""> 
+                            </div>
                                 <div class="form-group">
                                     
                                 </div>
@@ -137,7 +137,6 @@
 
                                  
                                 <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
-                            </form>
                             
                         </div>
                     </div>
@@ -148,8 +147,9 @@
         
         <main>
               <h1>Verifique sus Datos</h1>
+        
             <div class="form-group">
-            <asp:TextBox ID="TxtContra" ReadOnly runat="server" placeholder="Ganador..." type="Ganador" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TextBox4" ReadOnly runat="server" placeholder="Ganador..." type="Ganador" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <div class="form-group">
              <asp:TextBox ID="TextBox1" ReadOnly runat="server" placeholder="Puntos..." type="Puntos1" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
@@ -163,14 +163,13 @@
             <br />
             <h1> Ingrese sus datos para Finalizar la apuesta</h1>
              <div class="form-group">
-            <asp:TextBox ID="TextBox4" runat="server" placeholder="Usuario" type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Usuario" type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
-            <asp:TextBox ID="TextBox5" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
-            <asp:Button ID="Button2" BackColor="Red" BorderColor="Red" runat="server" Text="Terminar" OnClick="Button2_Click" />
-            
+            <asp:Button ID="Button2" runat="server" BackColor="Red" BorderColor="Red" Text="Guardar" OnClick="Unnamed1_Click"/>
         </main>
        
             
@@ -180,5 +179,6 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
         <script src="js/bootstrap.min.js"></script>
     </form>
+        
 </body>
 </html>

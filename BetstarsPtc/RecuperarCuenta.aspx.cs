@@ -26,7 +26,7 @@ namespace BetstarsPtc
                 {
 
                     string user = txtcuenta.Text;
-                    MySqlConnection conexion = new MySqlConnection("Server=127.0.0.1; database=posada; Uid=root; pwd=info2022;");
+                    MySqlConnection conexion = new MySqlConnection("Server=127.0.0.1; database=rosalesproyecto; Uid=root; pwd=;");
                     var cmd = "Select Password from usuarios where Nombre_Usuario='" + user + "';";
                     var cmd1 = "Select Correo from usuarios where Nombre_Usuario ='" + user + "';";
                     var cmd2 = "Select Nombre from usuarios where Nombre_Usuario ='" + user + "';";
