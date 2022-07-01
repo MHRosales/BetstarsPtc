@@ -59,7 +59,27 @@ namespace BetstarsPtc
                 if (retorno != 0)
                 {
                     Session["usermane"] = TxtUsuario;
+                    string Ganador;
+                    string Puntos1;
+                    string Puntos2;
+                    string Apuesta;
+                   
+
+                    Ganador = TextBox4.Text;
+                    Puntos1 = TextBox1.Text;
+                    Puntos2 = TextBox2.Text;
+                    Apuesta = TextBox3.Text;
                     
+                    if (conexiones.ApuestasRepetidos (Ganador, Puntos1, Puntos2, Apuesta, usuario) == 0)
+                    {
+                        alerta.Text = "<script>Swal.fire('Registrado con éxito', '¡Gracias por preferirnos!', 'success'); </script>";
+
+                        TextBox4.Text = "";
+                        TextBox1.Text = "";
+                        TextBox2.Text = "";
+                        TextBox3.Text = "";
+                        
+                    }
 
                 }
                 else

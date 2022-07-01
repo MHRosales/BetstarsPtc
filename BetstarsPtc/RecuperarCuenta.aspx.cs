@@ -49,10 +49,10 @@ namespace BetstarsPtc
                     contraDesencriptada = DecryptString(contra, initVector);
 
                     string correo = mail;// cambiar por correo del usuario que realiza la compra
-                    string nombre = "nomrbe de proyecto";
+                    string nombre = "Betstars";
 
-                    var fromAddress = new MailAddress("tucorreelectronico@gmail.com", "Fullstorage");
-                    const string fromPassword = "clavetemporal";
+                    var fromAddress = new MailAddress("rosalesmahu@gmail.com", "Betstars");
+                    const string fromPassword = "Maro1000";
                     var toAddress = new MailAddress(correo, nombre);//Dirección de correo y nombre que se muestra				
                     const string subject = "Recuperar contraseña";//Asunto del correo
                     string body = "Estimado " + nombrecliente + ", gracias por preferirnos y confiar en nosotros. Es un placer para nosotros que sea nuestro cliente, y no queremos que sufra inconvenientes. En el presente correo le enviamos la contraseña que solicitó. Muchas gracias por ser nuestro cliente. Contraseña: " + contraDesencriptada + "";
@@ -92,7 +92,7 @@ namespace BetstarsPtc
 
         // This size of the IV (in bytes) must = (keysize / 8).  Default keysize is 256, so the IV must be
         // 32 bytes long.  Using a 16 character string here gives us 32 bytes when converted to a byte array.
-        private const string initVector = "pemgail9uzpgzl88";
+        private const string initVector = "emmanuelinfo2022";
         // This constant is used to determine the keysize of the encryption algorithm
         private const int keysize = 256;
 
