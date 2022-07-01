@@ -46,11 +46,10 @@
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
     <asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>
-  
-  
 
     <asp:Button ID="Button10" runat="server" Text="Salir" BackColor="Red" BorderColor="Red" OnClick="Button10_Click" />
-  
+  <liv
+     
   
 
 </nav>

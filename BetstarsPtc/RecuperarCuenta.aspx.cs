@@ -51,8 +51,8 @@ namespace BetstarsPtc
                     string correo = mail;// cambiar por correo del usuario que realiza la compra
                     string nombre = "Betstars";
 
-                    var fromAddress = new MailAddress("rosalesmahu@gmail.com", "Betstars");
-                    const string fromPassword = "Maro1000";
+                    var fromAddress = new MailAddress("20120208@santacecilia.edu.sv", "Betstars");
+                    const string fromPassword = "LWXS2uH$";
                     var toAddress = new MailAddress(correo, nombre);//Dirección de correo y nombre que se muestra				
                     const string subject = "Recuperar contraseña";//Asunto del correo
                     string body = "Estimado " + nombrecliente + ", gracias por preferirnos y confiar en nosotros. Es un placer para nosotros que sea nuestro cliente, y no queremos que sufra inconvenientes. En el presente correo le enviamos la contraseña que solicitó. Muchas gracias por ser nuestro cliente. Contraseña: " + contraDesencriptada + "";
