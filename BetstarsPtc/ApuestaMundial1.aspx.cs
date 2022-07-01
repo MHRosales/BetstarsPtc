@@ -33,7 +33,8 @@ namespace BetstarsPtc
             TextBox2.Text = puntos2;
             string puntos3 = DropDownList4.SelectedValue.ToString();
             TextBox3.Text = puntos3;
-            alerta.Text = "<script>Swal.fire('Buena suerte', '¡Gracias por preferirnos!', 'success'); </script>";
+            alerta.Text = "<script>Swal.fire('Berifica sus datos en la parte inferior', '¡Gracias por preferirnos!', 'success'); </script>";
+           
         }
 
         protected void Unnamed1_Click(object sender, EventArgs e)
@@ -72,7 +73,7 @@ namespace BetstarsPtc
                     
                     if (conexiones.ApuestasRepetidos (Ganador, Puntos1, Puntos2, Apuesta, usuario) == 0)
                     {
-                        alerta.Text = "<script>Swal.fire('Registrado con éxito', '¡Gracias por preferirnos!', 'success'); </script>";
+                        alerta.Text = "<script>Swal.fire('Apuesta Guardada', '¡Gracias por preferirnos!', 'success'); </script>";
 
                         TextBox4.Text = "";
                         TextBox1.Text = "";

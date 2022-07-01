@@ -19,6 +19,7 @@ namespace BetstarsPtc
         }
         protected void Unnamed1_Click(object sender, EventArgs e)
         {
+            
             if (TxtContra.Text != "" && TxtUsuario.Text != "")
             {
 
@@ -83,5 +84,6 @@ namespace BetstarsPtc
         {
             Response.Redirect("Registro.aspx");
         }
+       
     }
-}
+    }

@@ -54,7 +54,7 @@
                                     <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
-                                <asp:Button runat="server" Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"></asp:Button>
+                                <asp:Button runat="server" Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" OnClientClick="Unnamed2_Click"></asp:Button>
 
                                 <div>
                                     <asp:HyperLink ID="olvidaste" runat="server" CssClass="olvidaste" Text="¿Has olvidado tu contraseña?" NavigateUrl="RecuperarCuenta.aspx" />

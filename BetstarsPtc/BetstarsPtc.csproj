@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApuestaMundial1.aspx" />
+    <Content Include="CrudMisApuestas.aspx" />
     <Content Include="CSS\bootstrap-grid.css" />
     <Content Include="CSS\bootstrap-grid.min.css" />
     <Content Include="CSS\bootstrap-reboot.css" />
@@ -110,6 +111,13 @@
       <DependentUpon>ApuestaMundial1.aspx</DependentUpon>
     </Compile>
     <Compile Include="conexiones.cs" />
+    <Compile Include="CrudMisApuestas.aspx.cs">
+      <DependentUpon>CrudMisApuestas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />
     <Compile Include="Login.aspx.cs">
@@ -167,6 +175,9 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
