@@ -83,6 +83,12 @@
     <Content Include="EstilosCss\Login2.css" />
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
+    <Content Include="Idioma.aspx" />
+    <Content Include="Imagenes\Video6.mp4" />
+    <Content Include="Imagenes\Video7.mp4" />
+    <Content Include="Imagenes\Video8.mp4" />
+    <Content Include="Imagenes\Video9.mp4" />
+    <Content Include="Imagenes\Video10.mp4" />
     <Content Include="Imagenes\Video5.mp4" />
     <Content Include="Imagenes\Video4.mp4" />
     <Content Include="Imagenes\Video3.mp4" />
@@ -120,6 +126,13 @@
     </Compile>
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />
+    <Compile Include="Idioma.aspx.cs">
+      <DependentUpon>Idioma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Idioma.aspx.designer.cs">
+      <DependentUpon>Idioma.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
