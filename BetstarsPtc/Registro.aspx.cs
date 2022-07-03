@@ -29,6 +29,9 @@ namespace BetstarsPtc
                     string usuario;
                     string correo;
                     string tarjeta;
+                    string CVV;
+                    string Fecha1;
+                    string Fecha2;
 
                     nombre = txtfirst.Text;
                     apellido = txtapellido.Text;
@@ -36,7 +39,10 @@ namespace BetstarsPtc
                     encriptada = EncryptString(txtclave.Text, initVector);
                     correo = txtgmail.Text;
                     tarjeta = txtTarjeta.Text;
-                    if (conexiones.UsuariosRepetidos(usuario, encriptada, nombre, apellido, correo, tarjeta) == 0)
+                    CVV = txtCvv.Text;
+                    Fecha1 = txtFecha.Text;
+                    Fecha2 = txtFechaNac.Text;
+                    if (conexiones.UsuariosRepetidos(usuario, encriptada, nombre, apellido, correo, tarjeta, CVV, Fecha1,Fecha2) == 0)
                     {
                         alerta.Text = "<script>Swal.fire('Registrado con éxito', '¡Gracias por preferirnos!', 'success'); </script>";
 

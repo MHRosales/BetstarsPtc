@@ -83,6 +83,14 @@
                              <div class="form-group"> 
                                 <asp:TextBox ID="txtTarjeta" runat="server"  placeholder="Tarjeta..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
+                            <div class="form-group"> 
+                                <asp:TextBox ID="txtCvv" runat="server"  placeholder="CVV..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="3" maxlength="30"/>
+                            </div>
+                            <div class="form-group"> 
+                                <asp:TextBox ID="txtFecha" runat="server"  placeholder="Fecha de Caducidad..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
+                            </div>
+                             
+                             <asp:TextBox ID="txtFechaNac" TextMode="Date" CssClass="form-control" runat="server"></asp:TextBox>
 
                            <asp:Button runat="server" Text="Registrarse" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"></asp:Button> 
 

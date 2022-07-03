@@ -10,7 +10,8 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,400&display=swap" rel="stylesheet"/>
         <link href="EstilosCss/Login.css" rel="stylesheet" />
-        <link href="EstilosCss/Login2.css" rel="stylesheet" />
+       <link href="EstilosCss/Login2.css" rel="stylesheet" />
+        
        
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
@@ -48,7 +49,7 @@
     <asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>
 
     <asp:Button ID="Button10" runat="server" Text="Salir" BackColor="Red" BorderColor="Red" OnClick="Button10_Click" />
-  <liv
+  
      
   
 
@@ -80,7 +81,7 @@
 
            </div>
             </div>
-           </div>
+           
         <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video1.mp4" type="video/mp4" /></video>
             </main>
  </form>
