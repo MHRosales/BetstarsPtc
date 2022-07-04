@@ -4,6 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+
+               <link rel="shortcut icon" type="image/png" href="../imagenes/betstars.png"/>
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="Font-awesome/css/fontawesome.min.css" rel="stylesheet" />
