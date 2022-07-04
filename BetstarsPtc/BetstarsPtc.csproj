@@ -79,14 +79,18 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\Login.css" />
+    <Content Include="ElegirLogin.aspx" />
     <Content Include="EstilosCss\Login3.css" />
     <Content Include="EstilosCss\Login2.css" />
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
     <Content Include="Idioma.aspx" />
+    <Content Include="Imagenes\2.jpg" />
+    <Content Include="Imagenes\3.jpg" />
     <Content Include="Imagenes\Bandera2.jpg" />
     <Content Include="Imagenes\Bandera3.jpg" />
     <Content Include="Imagenes\betstars.png" />
+    <Content Include="Imagenes\descarga.png" />
     <Content Include="Imagenes\laliga.png" />
     <Content Include="Imagenes\MLB.jfif" />
     <Content Include="Imagenes\mundial.jpg" />
@@ -95,6 +99,7 @@
     <Content Include="Imagenes\premier.png" />
     <Content Include="Imagenes\SerieA.jpg" />
     <Content Include="Imagenes\uefa.jpg" />
+    <Content Include="Imagenes\user_icon_143482.png" />
     <Content Include="Imagenes\Video6.mp4" />
     <Content Include="Imagenes\Video7.mp4" />
     <Content Include="Imagenes\Video8.mp4" />
@@ -110,6 +115,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Login.aspx" />
+    <Content Include="Login2.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="MenuLaliga.aspx" />
     <Content Include="MenuMLB.aspx" />
@@ -145,6 +151,13 @@
     </Compile>
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />
+    <Compile Include="ElegirLogin.aspx.cs">
+      <DependentUpon>ElegirLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ElegirLogin.aspx.designer.cs">
+      <DependentUpon>ElegirLogin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Idioma.aspx.cs">
       <DependentUpon>Idioma.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,6 +171,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login2.aspx.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login2.aspx.designer.cs">
+      <DependentUpon>Login2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Menu.aspx.cs">
       <DependentUpon>Menu.aspx</DependentUpon>

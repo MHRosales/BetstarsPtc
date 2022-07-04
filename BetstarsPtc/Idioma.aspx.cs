@@ -21,7 +21,7 @@ namespace BetstarsPtc
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("Login.aspx");
+            Response.Redirect("ElegirLogin.aspx");
         }
     }
 }
