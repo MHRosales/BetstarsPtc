@@ -16,5 +16,6 @@ main {
     width: 50%;
     background: rgba(0,0,0,0.5);
     margin: 25%;
-    padding: 50px;
+    padding: 25px;
+    border-radius: 3.5rem;
 }

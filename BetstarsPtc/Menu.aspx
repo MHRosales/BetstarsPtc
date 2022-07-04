@@ -4,6 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+           <link rel="shortcut icon" type="image/png" href="../imagenes/betstars.png"/>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <link href="Font-awesome/css/fontawesome.min.css" rel="stylesheet" />    
@@ -64,19 +65,30 @@
               
 
            </div>
-                        <asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button2_Click"/>
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/mundial.jpg" Width="170px" Height="170px" runat="server"  />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/nba.jpg" Width="170px" Height="170px" runat="server" />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/nfl.png" Width="170px" Height="170px" runat="server" />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton4" ImageUrl="~/Imagenes/uefa.jpg" Width="170px" Height="170px" runat="server" />
+                        <%--<asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button2_Click"/>
                         <asp:Button ID="Button3" runat="server" Text="NBA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
                         <asp:Button ID="Button4" runat="server" Text="NFL" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
-                        <asp:Button ID="Button5" runat="server" Text="UEFA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button5" runat="server" Text="UEFA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>--%>
              <br />
              <br />
              <br />
              <br />
          <div>
-                        <asp:Button ID="Button6" runat="server" Text="SERIE A" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+
+             <asp:ImageButton  CssClass="btn-xl" ID="ImageButton5" ImageUrl="~/Imagenes/SerieA.jpg" Width="170px" Height="170px" runat="server" />
+             <asp:ImageButton CssClass="btn-xl" ID="ImageButton6" ImageUrl="~/Imagenes/laliga.png" Width="170px" Height="170px" runat="server" />
+                <asp:ImageButton CssClass="btn-xl" ID="ImageButton7" ImageUrl="~/Imagenes/MLB.jfif" Width="170px" Height="170px" runat="server" />
+                <asp:ImageButton CssClass="btn-xl" ID="ImageButton8" ImageUrl="~/Imagenes/premier.png" Width="170px" Height="170px" runat="server" />
+
+
+                       <%-- <asp:Button ID="Button6" runat="server" Text="SERIE A" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
                         <asp:Button ID="Button7" runat="server" Text="LA LIGA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
                         <asp:Button ID="Button8" runat="server" Text="MLB" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
-                        <asp:Button ID="Button9" runat="server" Text="PREMIER" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button9" runat="server" Text="PREMIER" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>--%>
 
 
            </div>

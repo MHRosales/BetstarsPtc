@@ -84,6 +84,15 @@
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
     <Content Include="Idioma.aspx" />
+    <Content Include="Imagenes\betstars.png" />
+    <Content Include="Imagenes\laliga.png" />
+    <Content Include="Imagenes\MLB.jfif" />
+    <Content Include="Imagenes\mundial.jpg" />
+    <Content Include="Imagenes\nba.jpg" />
+    <Content Include="Imagenes\nfl.png" />
+    <Content Include="Imagenes\premier.png" />
+    <Content Include="Imagenes\SerieA.jpg" />
+    <Content Include="Imagenes\uefa.jpg" />
     <Content Include="Imagenes\Video6.mp4" />
     <Content Include="Imagenes\Video7.mp4" />
     <Content Include="Imagenes\Video8.mp4" />
@@ -101,6 +110,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="MundialMenu.aspx" />
+    <Content Include="MySql.Data.DLL" />
     <Content Include="RecuperarCuenta.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="SweetAlert\sweetalert2.all.min.js" />
