@@ -47,8 +47,9 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
-    <asp:Button ID="Button1" runat="server" Text="Regresar" BackColor="Red" BorderColor="Red" OnClick="Button1_Click"/>
-  
+<%--    <asp:Button ID="Button1" runat="server" Text="Regresar" BackColor="Red" BorderColor="Red" OnClick="Button1_Click"/>--%>
+      <a class="nav-link" href="Menu.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+
   
 
 </nav>
@@ -67,12 +68,7 @@
                         <br />
                         <br />
                         <asp:Button ID="Button3" runat="server" Text="NBA" BackColor="Red" BorderColor="Red" Height="300px" Width="300px"/>
-                        <br />
-                        <br />
-                        <asp:Button ID="Button4" runat="server" Text="NFL" BackColor="Red" BorderColor="Red" Height="300px" Width="300px"/>
-                        <br />
-                        <br />
-                        <asp:Button ID="Button5" runat="server" Text="UEFA" BackColor="Red" BorderColor="Red" Height="300px" Width="300px"/>
+
              
 
            </div>

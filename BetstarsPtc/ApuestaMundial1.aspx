@@ -26,8 +26,9 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />
-            
+<%--            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />--%>
+                <a class="nav-link" href="MundialMenu.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+
         </nav>
         <div class="my-content">
             <div class="container">
