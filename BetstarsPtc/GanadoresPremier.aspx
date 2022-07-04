@@ -97,7 +97,7 @@
                                 <div>
                                   <br />
                                    
-                                    <asp:Button ID="Button1" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" />
+                                    <asp:Button ID="Button1" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click" />
             
                                 </div>
                                 <p> &nbsp;</p>
