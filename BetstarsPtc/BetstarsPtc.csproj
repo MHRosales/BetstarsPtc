@@ -108,7 +108,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Login.aspx" />
-    <Content Include="Menu.aspx" />
+    <Content Include="Menu1.aspx" />
     <Content Include="MenuLaliga.aspx" />
     <Content Include="MenuMLB.aspx" />
     <Content Include="MenuNba.aspx" />
@@ -157,12 +157,12 @@
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Menu.aspx.cs">
-      <DependentUpon>Menu.aspx</DependentUpon>
+    <Compile Include="Menu1.aspx.cs">
+      <DependentUpon>Menu1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Menu.aspx.designer.cs">
-      <DependentUpon>Menu.aspx</DependentUpon>
+    <Compile Include="Menu1.aspx.designer.cs">
+      <DependentUpon>Menu1.aspx</DependentUpon>
     </Compile>
     <Compile Include="MenuLaliga.aspx.cs">
       <DependentUpon>MenuLaliga.aspx</DependentUpon>
