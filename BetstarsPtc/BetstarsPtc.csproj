@@ -72,7 +72,9 @@
   <ItemGroup>
     <Content Include="Admin.aspx" />
     <Content Include="ApuestaMundial1.aspx" />
+    <Content Include="CrudGanadores.aspx" />
     <Content Include="CrudMisApuestas.aspx" />
+    <Content Include="CrudUsuarios.aspx" />
     <Content Include="CSS\bootstrap-grid.css" />
     <Content Include="CSS\bootstrap-grid.min.css" />
     <Content Include="CSS\bootstrap-reboot.css" />
@@ -158,12 +160,26 @@
       <DependentUpon>ApuestaMundial1.aspx</DependentUpon>
     </Compile>
     <Compile Include="conexiones.cs" />
+    <Compile Include="CrudGanadores.aspx.cs">
+      <DependentUpon>CrudGanadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudGanadores.aspx.designer.cs">
+      <DependentUpon>CrudGanadores.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CrudMisApuestas.aspx.cs">
       <DependentUpon>CrudMisApuestas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CrudMisApuestas.aspx.designer.cs">
       <DependentUpon>CrudMisApuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudUsuarios.aspx.cs">
+      <DependentUpon>CrudUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudUsuarios.aspx.designer.cs">
+      <DependentUpon>CrudUsuarios.aspx</DependentUpon>
     </Compile>
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />

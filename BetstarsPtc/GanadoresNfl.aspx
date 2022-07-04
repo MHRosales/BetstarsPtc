@@ -96,24 +96,7 @@
                                 </h3>
                                 <div>
                                   <br />
-                                    <h3>
-                                        <asp:Label ID="Label3" runat="server" Text="Su Apuesta"></asp:Label>
-                                         <br />
-                                        <asp:DropDownList ID="DropDownList4" runat="server">
-                                        <asp:ListItem>$1</asp:ListItem>
-                                        <asp:ListItem>$2</asp:ListItem>
-                                        <asp:ListItem>$3</asp:ListItem>
-                                        <asp:ListItem>$4</asp:ListItem>
-                                        <asp:ListItem>$5</asp:ListItem>
-                                        <asp:ListItem>$6</asp:ListItem>
-                                        <asp:ListItem>$7</asp:ListItem>
-                                        <asp:ListItem>$8</asp:ListItem>
-                                        <asp:ListItem>$9</asp:ListItem>
-                                        <asp:ListItem>$10</asp:ListItem>
-                                        </asp:DropDownList>
-                                        <br />
-                                  
-                                    </h3>
+                                   
                                     <asp:Button ID="Button1" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" />
             
                                 </div>
@@ -159,9 +142,6 @@
             </div>
             <div class="form-group">
              <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Puntos..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
-            </div>
-             <div class="form-group">
-            <asp:TextBox ID="TextBox3"  ReadOnly runat="server" placeholder="Apuesta..." type="Apuesta" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <br />
             <h1> Ingrese sus datos para Finalizar la apuesta</h1>

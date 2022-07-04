@@ -48,10 +48,10 @@
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
     <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
-    <a class="nav-link body" href="#">Mis Apuestas</a>
+   
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
-    <a class="nav-link" href="Login.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
      
   
 
@@ -64,8 +64,9 @@
                         </div>
                         <div>
                             <asp:Button ID="Button1" runat="server" Text="Agregar Ganadores" Height= "200px" Width="200px" OnClick="Button1_Click"/>
-                            <asp:Button ID="Button2" runat="server" Text="Ver Usuarios" Height= "200px" Width="200px"/>
-                            <asp:Button ID="Button3" runat="server" Text="Ver Apuestas" Height= "200px" Width="200px"/>
+                             <asp:Button ID="Button4" runat="server" Text="Ver Ganadores" Height= "200px" Width="200px" OnClick="Button4_Click"/>
+                            <asp:Button ID="Button2" runat="server" Text="Ver Usuarios" Height= "200px" Width="200px" OnClick="Button2_Click"/>
+                            <asp:Button ID="Button3" runat="server" Text="Ver Apuestas" Height= "200px" Width="200px" OnClick="Button3_Click"/>
 
            </div>
                         

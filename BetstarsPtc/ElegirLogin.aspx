@@ -62,9 +62,11 @@
               
                            
            </div>
+                        <h5>Usuario</h5>
                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/2.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton1_Click"  />
 
                         <br />
+                        <h5>Admin</h5>
                         <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/3.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton2_Click"  />
                         <br />
                         

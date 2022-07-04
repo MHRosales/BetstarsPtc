@@ -48,5 +48,10 @@ namespace BetstarsPtc
         {
             Response.Redirect("GanadoresPremier.aspx");
         }
+
+        protected void ImageButton5_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("GanadoresSerieA.aspx");
+        }
     }
 }

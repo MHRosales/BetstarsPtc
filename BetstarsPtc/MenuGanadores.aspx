@@ -48,10 +48,10 @@
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
     <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
-    <a class="nav-link body" href="#">Mis Apuestas</a>
+    
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
-    <a class="nav-link" href="Login.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
      
   
 
@@ -80,7 +80,7 @@
              <br />
          <div>
 
-             <asp:ImageButton  CssClass="btn-xl" ID="ImageButton5" ImageUrl="~/Imagenes/SerieA.jpg" Width="170px" Height="170px" runat="server" />
+             <asp:ImageButton  CssClass="btn-xl" ID="ImageButton5" ImageUrl="~/Imagenes/SerieA.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton5_Click" />
              <asp:ImageButton CssClass="btn-xl" ID="ImageButton6" ImageUrl="~/Imagenes/laliga.png" Width="170px" Height="170px" runat="server" OnClick="ImageButton6_Click"  />
                 <asp:ImageButton CssClass="btn-xl" ID="ImageButton7" ImageUrl="~/Imagenes/MLB.jfif" Width="170px" Height="170px" runat="server" OnClick="ImageButton7_Click"  />
                 <asp:ImageButton CssClass="btn-xl" ID="ImageButton8" ImageUrl="~/Imagenes/premier.png" Width="170px" Height="170px" runat="server" OnClick="ImageButton8_Click" />
