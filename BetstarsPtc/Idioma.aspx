@@ -46,8 +46,9 @@
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
-                                <asp:Button ID="Button1" runat="server" Height="240px" Text="Button" Width="240px" />
-                                <asp:Button ID="Button2" runat="server" Height="240px" Text="Button" Width="240px" OnClick="Button2_Click" />
+                          
+                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/Bandera2.jpg" Width="240px" Height="170px" runat="server" OnClick="ImageButton1_Click"  />
+                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/Bandera3.jpg" Width="240px" Height="170px" runat="server"  />
                             </div>
                         </div>
                         

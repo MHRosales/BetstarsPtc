@@ -84,6 +84,8 @@
     <Content Include="EstilosCss\EstilosStorage.css" />
     <Content Include="EstilosCss\Login.css" />
     <Content Include="Idioma.aspx" />
+    <Content Include="Imagenes\Bandera2.jpg" />
+    <Content Include="Imagenes\Bandera3.jpg" />
     <Content Include="Imagenes\betstars.png" />
     <Content Include="Imagenes\laliga.png" />
     <Content Include="Imagenes\MLB.jfif" />
