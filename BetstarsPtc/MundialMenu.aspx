@@ -64,7 +64,9 @@
               
 
            </div>
-                        <asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="300px" Width="300px" OnClick="Button2_Click"/>
+                        <%--<asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="300px" Width="300px" OnClick="Button2_Click"/--%>>
+                                               <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/QatarEcuador.jpg" Width="600px" Height="200px" runat="server" OnClick="ImageButton5_Click"  />
+
                         <br />
                         <br />
                         <asp:Button ID="Button3" runat="server" Text="NBA" BackColor="Red" BorderColor="Red" Height="300px" Width="300px"/>

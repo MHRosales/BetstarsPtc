@@ -29,11 +29,15 @@ main {
         color: #ff0000;
     }
 .nav-link {
-    font-family: 'Avenir Next LT Pro'
-    display: block;
+    font-family: 'Avenir Next LT Pro' display: block;
     padding: 0.5rem 1rem;
     color: #ffc800;
     text-decoration: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.estilo-1 {
+    border-image: linear-gradient(to right, red, purple) 1;
+}
 
 
