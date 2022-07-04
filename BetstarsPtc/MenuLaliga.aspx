@@ -50,11 +50,6 @@
   
   
 
-    <asp:Button ID="Button8" runat="server" Text="Button" />
-    
-  
-  
-
 </nav>
         <main>
     <h1>  Elija su Partido </h1>
