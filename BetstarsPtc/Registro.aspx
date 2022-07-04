@@ -63,37 +63,51 @@
 
                     </div>
                     <div class="myform-bottom">
-                        <form role="form" action="" method="post" class="" > 
+                        </div>
                             <div class="form-group"> 
+                                <h4>Ingrese su nombre</h4>
                                 <asp:TextBox ID="txtfirst" runat="server"  placeholder="Nombres..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30"  onkeypress="return validar(event)" ></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese su Apellido</h4>
                                 <asp:TextBox ID="txtapellido" runat="server"  placeholder="Apellidos..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30" onkeypress="return validar(event)"></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese su nombre de usuario</h4>
                                 <asp:TextBox ID="txtusuario" runat="server"  placeholder="Usuario..." type="text" class="form-control"  onpaste="return false" minlength="5" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese su Contraseña</h4>
                                 <asp:TextBox ID="txtclave" runat="server"  placeholder="Contraseña..." type="password" class="form-control"  onpaste="return false" minlength="2" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
+                                <h4>Repita su Contraseña</h4>
                                 <asp:TextBox ID="txtconfirm" runat="server"  placeholder="Repita Contraseña..." type="password" class="form-control"  onpaste="return false" minlength="2" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese su Correo electronico</h4>
                                 <asp:TextBox ID="txtgmail" runat="server"  placeholder="Gmail..." type="email" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
                              <div class="form-group"> 
+                                 <h4>Ingrese su Numero de tarjeta</h4>
                                 <asp:TextBox ID="txtTarjeta" runat="server"  placeholder="Tarjeta..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese el CVV de su tarjeta</h4>
                                 <asp:TextBox ID="txtCvv" runat="server"  placeholder="CVV..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="3" maxlength="30"/>
                             </div>
                             <div class="form-group"> 
+                                <h4>Ingrese la Fecha de caducidad de su tarjeta</h4>
                                 <asp:TextBox ID="txtFecha" runat="server"  placeholder="Fecha de Caducidad..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
-                             
+                             <h4>Ingrese su Fecha de nacimiento</h4>
+                            
                              <asp:TextBox ID="txtFechaNac" TextMode="Date" CssClass="form-control" runat="server"></asp:TextBox>
-
+                             <div class="form-group"> 
+                                <h4>Ingrese un documento que pruebe su identidad
+                                 </h4>
+                                 <asp:FileUpload ID="PhotoFile" runat="server" CssClass="form-control" />
+                            </div>
                            <asp:Button runat="server" Text="Registrarse" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"></asp:Button> 
 
                             <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>

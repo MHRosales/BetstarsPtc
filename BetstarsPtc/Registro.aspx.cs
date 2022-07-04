@@ -33,6 +33,7 @@ namespace BetstarsPtc
                     string Fecha1;
                     string Fecha2;
 
+
                     nombre = txtfirst.Text;
                     apellido = txtapellido.Text;
                     usuario = txtusuario.Text;

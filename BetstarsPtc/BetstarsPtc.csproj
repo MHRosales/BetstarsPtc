@@ -109,6 +109,13 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Login.aspx" />
     <Content Include="Menu.aspx" />
+    <Content Include="MenuLaliga.aspx" />
+    <Content Include="MenuMLB.aspx" />
+    <Content Include="MenuNba.aspx" />
+    <Content Include="MenuNfl.aspx" />
+    <Content Include="MenuPremier.aspx" />
+    <Content Include="MenuSerieA.aspx" />
+    <Content Include="MenuUEFA.aspx" />
     <Content Include="MundialMenu.aspx" />
     <Content Include="MySql.Data.DLL" />
     <Content Include="RecuperarCuenta.aspx" />
@@ -156,6 +163,55 @@
     </Compile>
     <Compile Include="Menu.aspx.designer.cs">
       <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuLaliga.aspx.cs">
+      <DependentUpon>MenuLaliga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuLaliga.aspx.designer.cs">
+      <DependentUpon>MenuLaliga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMLB.aspx.cs">
+      <DependentUpon>MenuMLB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuMLB.aspx.designer.cs">
+      <DependentUpon>MenuMLB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuNba.aspx.cs">
+      <DependentUpon>MenuNba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuNba.aspx.designer.cs">
+      <DependentUpon>MenuNba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuNfl.aspx.cs">
+      <DependentUpon>MenuNfl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuNfl.aspx.designer.cs">
+      <DependentUpon>MenuNfl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPremier.aspx.cs">
+      <DependentUpon>MenuPremier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuPremier.aspx.designer.cs">
+      <DependentUpon>MenuPremier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuSerieA.aspx.cs">
+      <DependentUpon>MenuSerieA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuSerieA.aspx.designer.cs">
+      <DependentUpon>MenuSerieA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MenuUEFA.aspx.cs">
+      <DependentUpon>MenuUEFA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MenuUEFA.aspx.designer.cs">
+      <DependentUpon>MenuUEFA.aspx</DependentUpon>
     </Compile>
     <Compile Include="MundialMenu.aspx.cs">
       <DependentUpon>MundialMenu.aspx</DependentUpon>
