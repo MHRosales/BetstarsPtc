@@ -29,5 +29,11 @@ namespace BetstarsPtc
             Response.Redirect("~/ApuestaMundial1.aspx");
 
         }
+
+        protected void ImageButton6_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/ApuestaMundial1.aspx");
+
+        }
     }
 }

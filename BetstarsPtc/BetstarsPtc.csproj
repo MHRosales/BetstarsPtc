@@ -98,11 +98,14 @@
     <Content Include="Idioma.aspx" />
     <Content Include="Imagenes\2.jpg" />
     <Content Include="Imagenes\3.jpg" />
+    <Content Include="Imagenes\ArgentinaMex.jpg" />
     <Content Include="Imagenes\Bandera2.jpg" />
     <Content Include="Imagenes\Bandera3.jpg" />
     <Content Include="Imagenes\betstars.png" />
+    <Content Include="Imagenes\CelticsWarriors.jpg" />
     <Content Include="Imagenes\descarga.png" />
     <Content Include="Imagenes\laliga.png" />
+    <Content Include="Imagenes\MavericksHeats.jpg" />
     <Content Include="Imagenes\MLB.jfif" />
     <Content Include="Imagenes\mundial.jpg" />
     <Content Include="Imagenes\nba.jpg" />
