@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Menu1.aspx.cs" Inherits="BetstarsPtc.Menu" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="BetstarsPtc.Menu" %>
 
 <!DOCTYPE html>
 
@@ -66,19 +66,30 @@
               
 
            </div>
-                        <asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button2_Click"/>
-                        <asp:Button ID="Button3" runat="server" Text="NBA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button3_Click"/>
-                        <asp:Button ID="Button4" runat="server" Text="NFL" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button4_Click"/>
-                        <asp:Button ID="Button5" runat="server" Text="UEFA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button5_Click"/>
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/mundial.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton1_Click" />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/nba.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton2_Click" />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/nfl.png" Width="170px" Height="170px" runat="server" OnClick="ImageButton3_Click" />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton4" ImageUrl="~/Imagenes/uefa.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton4_Click" />
+                        <%--<asp:Button ID="Button2" runat="server" Text="Mundial" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button2_Click"/>
+                        <asp:Button ID="Button3" runat="server" Text="NBA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button4" runat="server" Text="NFL" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button5" runat="server" Text="UEFA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>--%>
              <br />
              <br />
              <br />
              <br />
          <div>
-                        <asp:Button ID="Button6" runat="server" Text="SERIE A" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button6_Click"/>
-                        <asp:Button ID="Button7" runat="server" Text="LA LIGA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button7_Click"/>
-                        <asp:Button ID="Button8" runat="server" Text="MLB" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button8_Click"/>
-                        <asp:Button ID="Button9" runat="server" Text="PREMIER" BackColor="Red" BorderColor="Red" Height="150px" Width="150px" OnClick="Button9_Click"/>
+
+             <asp:ImageButton  CssClass="btn-xl" ID="ImageButton5" ImageUrl="~/Imagenes/SerieA.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton5_Click" />
+             <asp:ImageButton CssClass="btn-xl" ID="ImageButton6" ImageUrl="~/Imagenes/laliga.png" Width="170px" Height="170px" runat="server" OnClick="ImageButton6_Click" />
+                <asp:ImageButton CssClass="btn-xl" ID="ImageButton7" ImageUrl="~/Imagenes/MLB.jfif" Width="170px" Height="170px" runat="server" OnClick="ImageButton7_Click" />
+                <asp:ImageButton CssClass="btn-xl" ID="ImageButton8" ImageUrl="~/Imagenes/premier.png" Width="170px" Height="170px" runat="server" OnClick="ImageButton8_Click" />
+
+
+                       <%-- <asp:Button ID="Button6" runat="server" Text="SERIE A" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button7" runat="server" Text="LA LIGA" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button8" runat="server" Text="MLB" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>
+                        <asp:Button ID="Button9" runat="server" Text="PREMIER" BackColor="Red" BorderColor="Red" Height="150px" Width="150px"/>--%>
 
 
            </div>

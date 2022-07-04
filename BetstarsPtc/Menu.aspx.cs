@@ -24,37 +24,42 @@ namespace BetstarsPtc
             Response.Redirect("Login.aspx");
         }
 
-        protected void Button3_Click(object sender, EventArgs e)
+        protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("MundialMenu.aspx");
+        }
+
+        protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuNba.aspx");
         }
 
-        protected void Button4_Click(object sender, EventArgs e)
+        protected void ImageButton3_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuNfl.aspx");
         }
 
-        protected void Button5_Click(object sender, EventArgs e)
+        protected void ImageButton4_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuUEFA.aspx");
         }
 
-        protected void Button6_Click(object sender, EventArgs e)
+        protected void ImageButton5_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuSerieA.aspx");
         }
 
-        protected void Button7_Click(object sender, EventArgs e)
+        protected void ImageButton6_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuLaliga.aspx");
         }
 
-        protected void Button8_Click(object sender, EventArgs e)
+        protected void ImageButton7_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuMLB.aspx");
         }
 
-        protected void Button9_Click(object sender, EventArgs e)
+        protected void ImageButton8_Click(object sender, ImageClickEventArgs e)
         {
             Response.Redirect("MenuPremier.aspx");
         }
