@@ -25,6 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
+            <asp:Button ID="Button1" runat="server" Text="Regresar" OnClick="Button1_Click" />
         </nav>
         <div class="my-content">
             <div class="container">
@@ -55,10 +56,10 @@
                                     <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
-                                <asp:Button runat="server" Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" OnClientClick="Unnamed2_Click"></asp:Button>
+                                <asp:Button ID="Button2" runat="server" Text="Entrar" OnClick="Button2_Click" />
 
                                 <div>
-                                    <asp:HyperLink ID="olvidaste" runat="server" CssClass="olvidaste" Text="¿Has olvidado tu contraseña?" NavigateUrl="RecuperarCuenta.aspx" />
+                                   
                                 </div>
 
                                 <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>

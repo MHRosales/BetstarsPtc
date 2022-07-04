@@ -11,52 +11,79 @@ namespace BetstarsPtc
 {
 
 
-    public partial class Login2
+    public partial class MenuGanadores
     {
 
         /// <summary>
-        /// Control Button1.
+        /// Control ImageButton1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
 
         /// <summary>
-        /// Control TxtUsuario.
+        /// Control ImageButton2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
 
         /// <summary>
-        /// Control TxtContra.
+        /// Control ImageButton3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtContra;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
 
         /// <summary>
-        /// Control Button2.
+        /// Control ImageButton4.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
 
         /// <summary>
-        /// Control alerta.
+        /// Control ImageButton5.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal alerta;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
+
+        /// <summary>
+        /// Control ImageButton6.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
+
+        /// <summary>
+        /// Control ImageButton7.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton7;
+
+        /// <summary>
+        /// Control ImageButton8.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton8;
     }
 }

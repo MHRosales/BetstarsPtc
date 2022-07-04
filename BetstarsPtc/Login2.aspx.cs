@@ -13,5 +13,27 @@ namespace BetstarsPtc
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ElegirLogin.aspx");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+
+        {
+            string n = TxtContra.Text;
+            string m = TxtUsuario.Text;
+            if (TxtContra.Text == "Info2022" && TxtUsuario.Text == "Primero")
+            {
+                Response.Redirect("Admin.aspx");
+            }
+            else
+            {
+                alerta.Text = "<script>Swal.fire('Algo salio mal', 'Su usuario o contraseña no son correctos', 'error') </script>";
+                TxtContra.Text = "";
+                TxtUsuario.Text = "";
+            }
+    }
     }
 }

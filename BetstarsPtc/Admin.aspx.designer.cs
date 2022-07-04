@@ -11,7 +11,7 @@ namespace BetstarsPtc
 {
 
 
-    public partial class Login2
+    public partial class Admin
     {
 
         /// <summary>
@@ -24,24 +24,6 @@ namespace BetstarsPtc
         protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// Control TxtUsuario.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtUsuario;
-
-        /// <summary>
-        /// Control TxtContra.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtContra;
-
-        /// <summary>
         /// Control Button2.
         /// </summary>
         /// <remarks>
@@ -51,12 +33,12 @@ namespace BetstarsPtc
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// Control alerta.
+        /// Control Button3.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal alerta;
+        protected global::System.Web.UI.WebControls.Button Button3;
     }
 }
