@@ -82,7 +82,7 @@ namespace BetstarsPtc
                 }
                 else
                 {
-                    alerta.Text = "<script>Swal.fire('Algo salio mal', 'Su usuario o contraseña no son correctos', 'error') </script>";
+                    alerta.Text = "<script>Swal.fire('Algo salio mal ', 'Su usuario o contraseña no son correctos', 'error') </script>";
                     TxtContra.Text = "";
                     TxtUsuario.Text = "";
                 }
