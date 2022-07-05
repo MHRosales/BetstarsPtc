@@ -65,15 +65,15 @@
               
 
            </div>
-                       
+                       <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/JuventusMilan.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton11_Click"  />
+
                         <br />
                         <br />
-                        
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/RomaNapoles.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton12_Click"  />
+
                         <br />
                         <br />
-                  
-                        <br />
-                        <br />
+
                         
              
 
