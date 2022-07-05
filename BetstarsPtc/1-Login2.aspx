@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log Out</a>
         </nav>
         <div class="my-content">
             <div class="container">
@@ -41,7 +41,7 @@
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                                <p>Digite tu usuario y contraseña </p>
+                                <p>Type in your username and password </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
@@ -50,13 +50,13 @@
                         <div class="myform-bottom">
                             <form role="form" action="" method="post" class="">
                                 <div class="form-group">
-                                    <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Usuario..." type="text" class="form-control" onpaste="return false" minlength="4" MaxLength="15" />
+                                    <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User..." type="text" class="form-control" onpaste="return false" minlength="4" MaxLength="15" />
                                 </div>
                                 <div class="form-group">
-                                    <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+                                    <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
-                                <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Entrar" OnClick="Button2_Click" />
+                                <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Log in" OnClick="Button2_Click" />
 
                                 <div>
                                    

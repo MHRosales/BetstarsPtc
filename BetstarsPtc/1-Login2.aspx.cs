@@ -20,7 +20,7 @@ namespace BetstarsPtc
             string m = TxtUsuario.Text;
             if (TxtContra.Text == "Info2022" && TxtUsuario.Text == "Primero")
             {
-                Response.Redirect("Admin.aspx");
+                Response.Redirect("1-Admin.aspx");
             }
             else
             {

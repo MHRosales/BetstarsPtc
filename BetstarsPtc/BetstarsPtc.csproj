@@ -70,9 +70,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1-Admin.aspx" />
     <Content Include="1-ElegirLogin.aspx" />
     <Content Include="1-Login.aspx" />
     <Content Include="1-Login2.aspx" />
+    <Content Include="1-Menu.aspx" />
+    <Content Include="1-MenuGanadores.aspx" />
+    <Content Include="1-RecuperarCuenta.aspx" />
+    <Content Include="1-Registro.aspx" />
     <Content Include="Admin.aspx" />
     <Content Include="ApuestaLaliga1.aspx" />
     <Content Include="ApuestaLaliga2.aspx" />
@@ -183,6 +188,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-Admin.aspx.cs">
+      <DependentUpon>1-Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-Admin.aspx.designer.cs">
+      <DependentUpon>1-Admin.aspx</DependentUpon>
+    </Compile>
     <Compile Include="1-ElegirLogin.aspx.cs">
       <DependentUpon>1-ElegirLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -203,6 +215,34 @@
     </Compile>
     <Compile Include="1-Login2.aspx.designer.cs">
       <DependentUpon>1-Login2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-Menu.aspx.cs">
+      <DependentUpon>1-Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-Menu.aspx.designer.cs">
+      <DependentUpon>1-Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-MenuGanadores.aspx.cs">
+      <DependentUpon>1-MenuGanadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-MenuGanadores.aspx.designer.cs">
+      <DependentUpon>1-MenuGanadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-RecuperarCuenta.aspx.cs">
+      <DependentUpon>1-RecuperarCuenta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-RecuperarCuenta.aspx.designer.cs">
+      <DependentUpon>1-RecuperarCuenta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-Registro.aspx.cs">
+      <DependentUpon>1-Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-Registro.aspx.designer.cs">
+      <DependentUpon>1-Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin.aspx.cs">
       <DependentUpon>Admin.aspx</DependentUpon>

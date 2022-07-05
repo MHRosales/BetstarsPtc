@@ -41,19 +41,19 @@ namespace BetstarsPtc
                 if (retorno != 0)
                 {
                     Session["usermane"] = TxtUsuario;
-                    Response.Redirect("Menu.aspx");
+                    Response.Redirect("1-Menu.aspx");
 
                 }
                 else
                 {
-                    alerta.Text = "<script>Swal.fire('Algo salio mal', 'Su usuario o contraseña no son correctos', 'error') </script>";
+                    alerta.Text = "<script>Swal.fire('there is something wrong', 'Your username or password is not correct', 'error') </script>";
                     TxtContra.Text = "";
                     TxtUsuario.Text = "";
                 }
             }
             else
             {
-                alerta.Text = "<script>Swal.fire('OOPS', 'No deje espacios en blanco', 'error') </script>";
+                alerta.Text = "<script>Swal.fire('OOPS', 'Do not leave blank spaces', 'error') </script>";
             }
         }
 

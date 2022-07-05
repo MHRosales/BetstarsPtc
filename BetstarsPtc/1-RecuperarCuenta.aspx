@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-Login.aspx.cs" Inherits="BetstarsPtc._1_Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-RecuperarCuenta.aspx.cs" Inherits="BetstarsPtc._1_RecuperarCuenta" %>
 
 <!DOCTYPE html>
 
@@ -12,22 +12,20 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,400&display=swap" rel="stylesheet" />
     <link href="EstilosCss/Login.css" rel="stylesheet" />
-    <link href="EstilosCss/Login2.css" rel="stylesheet" /> 
+    <link href="EstilosCss/Login2.css" rel="stylesheet" />
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
-
-    <title>Login</title>
+    <title>Recover account</title>
 </head>
 <body>
-
     <form runat="server">
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-<%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
-            <a class="nav-link" href="1-Registro.aspx" font-family="Avenir Next LT Pro"> Sign in</a>
-             <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out</a>
+
+<%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Login" OnClick="btnregistro_Click" />--%>
+                <a class="nav-link" href="1-Login.aspx" font-family="Avenir Next LT Pro"> Login</a>
 
         </nav>
         <div class="my-content">
@@ -40,11 +38,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Log in </h1>
+                        <h1>Recover Password </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
-                              
-                                <p>Type in your username and password </p>
+                                <h3>have you forgotten your password?</h3>
+                                <p>Get it back no problem </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
@@ -53,29 +51,21 @@
                         <div class="myform-bottom">
                             <form role="form" action="" method="post" class="">
                                 <div class="form-group">
-                                    <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User..." type="text" class="form-control" onpaste="return false" minlength="4" MaxLength="15" />
-                                </div>
-                                <div class="form-group">
-                                    <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+                                    <asp:TextBox ID="txtcuenta" runat="server" placeholder="User..." type="text" class="form-control" />
                                 </div>
 
-                                <asp:Button runat="server" CssClass="btn-xl"  Text="Log in" BackColor="Red" BorderColor="Red" Height="60px" OnClick="Unnamed1_Click"></asp:Button>
+                                <asp:Button runat="server" Text="Recover" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" ></asp:Button>
 
-                                <div>
-                                   <a class="nav-link" href="1-RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> have you forgotten your password?</a>
-                                   
-                                </div>
 
-                                <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <asp:Literal ID="alertas" runat="server" Text=""></asp:Literal>
         <script src="js/bootstrap.min.js"></script>
+        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video5.mp4" type="video/mp4" /></video>
     </form>
-    <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video2.mp4" type="video/mp4" /></video>
 </body>
 </html>
