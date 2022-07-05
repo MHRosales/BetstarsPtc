@@ -83,7 +83,7 @@
            </div>
             </div>
            
-        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video1.mp4" type="video/mp4" /></video>
+        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video7.mp4" type="video/mp4" /></video>
             </main>
  </form>
 </body>

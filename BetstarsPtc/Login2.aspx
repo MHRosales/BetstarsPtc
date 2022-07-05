@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-            <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
         </nav>
         <div class="my-content">
             <div class="container">
@@ -56,7 +56,7 @@
                                     <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
-                                <asp:Button ID="Button2" runat="server" Text="Entrar" OnClick="Button2_Click" />
+                                <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Entrar" OnClick="Button2_Click" />
 
                                 <div>
                                    

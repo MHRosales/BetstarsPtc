@@ -27,7 +27,7 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
 <%--            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />--%>
-                <a class="nav-link" href="MundialMenu.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+                <a class="nav-link" href="MundialMenu.aspx" font-family="Avenir Next LT Pro"> Regresar</a>
 
         </nav>
         <div class="my-content">
@@ -115,7 +115,7 @@
                                         <br />
                                   
                                     </h3>
-                                    <asp:Button ID="Button1" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click" />
+                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click" />
             
                                 </div>
                                 <p> &nbsp;</p>
@@ -173,7 +173,7 @@
             <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
-            <asp:Button ID="Button2" runat="server" BackColor="Red" BorderColor="Red" Text="Guardar" OnClick="Unnamed1_Click"/>
+            <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Guardar" OnClick="Unnamed1_Click"/>
         </main>
        
             

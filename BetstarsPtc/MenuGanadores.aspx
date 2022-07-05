@@ -52,6 +52,7 @@
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
     <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+      <a class="nav-link" href="Admin.aspx" font-family="Avenir Next LT Pro"> Regresar</a>
      
   
 
@@ -95,7 +96,7 @@
            </div>
             </div>
            
-        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video1.mp4" type="video/mp4" /></video>
+        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video7.mp4" type="video/mp4" /></video>
             </main>
  </form>
 </body>

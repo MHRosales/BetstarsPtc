@@ -73,13 +73,16 @@ namespace BetstarsPtc
                     
                     if (conexiones.ApuestasRepetidos (Ganador, Puntos1, Puntos2, Apuesta, usuario) == 0)
                     {
-                        alerta.Text = "<script>Swal.fire('Apuesta Guardada', '¡Gracias por preferirnos!', 'success'); </script>";
+
 
                         TextBox4.Text = "";
                         TextBox1.Text = "";
                         TextBox2.Text = "";
                         TextBox3.Text = "";
-                        
+                        TxtUsuario.Text = "";
+                        TxtContra.Text = "";
+                        alerta.Text = "<script>Swal.fire('Apuesta Guardada', '¡Gracias por preferirnos!', 'success'); </script>";
+
                     }
 
                 }

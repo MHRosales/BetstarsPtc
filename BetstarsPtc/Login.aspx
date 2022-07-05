@@ -27,6 +27,7 @@
             <a class="navbar-brand" href="#">Betstars</a>
 <%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
             <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Registro</a>
+             <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
 
         </nav>
         <div class="my-content">
@@ -58,7 +59,7 @@
                                     <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
-                                <asp:Button runat="server" Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" OnClientClick="Unnamed2_Click"></asp:Button>
+                                <asp:Button runat="server" CssClass="btn-xl"  Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" OnClientClick="Unnamed2_Click" Height="60px"></asp:Button>
 
                                 <div>
                                    <a class="nav-link" href="RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> ¿Has olvidado tu contraseña?</a>
