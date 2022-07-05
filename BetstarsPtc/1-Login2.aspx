@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Idioma.aspx.cs" Inherits="BetstarsPtc.Idioma" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-Login2.aspx.cs" Inherits="BetstarsPtc._1_Login2" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Idioma-Idiom</title>
+    <title>Login</title>
 </head>
 <body>
 
@@ -25,6 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
+            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
         </nav>
         <div class="my-content">
             <div class="container">
@@ -36,35 +37,41 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Elija Su idioma </h1>
-                        <h3>Choose your language </h3>
-
+                        <h1>Login </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                              
+                                <p>Digite tu usuario y contraseña </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
-                          
-                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/Bandera2.jpg" Width="240px" Height="170px" runat="server" OnClick="ImageButton1_Click"  />
-                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/Bandera3.jpg" Width="240px" Height="170px" runat="server" OnClick="ImageButton2_Click"  />
                             </div>
                         </div>
-                        
+                        <div class="myform-bottom">
+                            <form role="form" action="" method="post" class="">
+                                <div class="form-group">
+                                    <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Usuario..." type="text" class="form-control" onpaste="return false" minlength="4" MaxLength="15" />
+                                </div>
+                                <div class="form-group">
+                                    <asp:TextBox ID="TxtContra" runat="server" placeholder="Contraseña..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
+                                <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Entrar" OnClick="Button2_Click" />
 
-                               
+                                <div>
+                                   
+                                </div>
 
                                 <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
-                            
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
         <script src="js/bootstrap.min.js"></script>
     </form>
-    <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video10.mp4" type="video/mp4" /></video>
+    <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video2.mp4" type="video/mp4" /></video>
 </body>
 </html>

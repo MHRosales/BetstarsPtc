@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Idioma.aspx.cs" Inherits="BetstarsPtc.Idioma" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-Login.aspx.cs" Inherits="BetstarsPtc._1_Login" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Idioma-Idiom</title>
+    <title>Login</title>
 </head>
 <body>
 
@@ -25,6 +25,10 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
+<%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
+            <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Sign in</a>
+             <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out</a>
+
         </nav>
         <div class="my-content">
             <div class="container">
@@ -36,35 +40,42 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Elija Su idioma </h1>
-                        <h3>Choose your language </h3>
-
+                        <h1>Log in </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                              
+                                <p>Type in your username and password </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
-                          
-                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/Bandera2.jpg" Width="240px" Height="170px" runat="server" OnClick="ImageButton1_Click"  />
-                                <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/Bandera3.jpg" Width="240px" Height="170px" runat="server" OnClick="ImageButton2_Click"  />
                             </div>
                         </div>
-                        
+                        <div class="myform-bottom">
+                            <form role="form" action="" method="post" class="">
+                                <div class="form-group">
+                                    <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User..." type="text" class="form-control" onpaste="return false" minlength="4" MaxLength="15" />
+                                </div>
+                                <div class="form-group">
+                                    <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="password" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
                                 </div>
 
+                                <asp:Button runat="server" CssClass="btn-xl"  Text="Log in" BackColor="Red" BorderColor="Red" Height="60px" OnClick="Unnamed1_Click"></asp:Button>
 
-                               
+                                <div>
+                                   <a class="nav-link" href="RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> have you forgotten your password?</a>
+                                   
+                                </div>
 
                                 <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
-                            
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
         <script src="js/bootstrap.min.js"></script>
     </form>
-    <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video10.mp4" type="video/mp4" /></video>
+    <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video2.mp4" type="video/mp4" /></video>
 </body>
 </html>

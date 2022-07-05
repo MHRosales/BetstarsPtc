@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ElegirLogin.aspx.cs" Inherits="BetstarsPtc.ElegirLogin" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-ElegirLogin.aspx.cs" Inherits="BetstarsPtc._1_ElegirLogin" %>
 
 <!DOCTYPE html>
 
@@ -52,7 +52,7 @@
 
 </nav>
         <main>
-    <h1> Decide como quieres entrar </h1>
+    <h1>Choose how you want to Login </h1>
     
                     <div class="myform-top">
                         <div class="myform-top-left">
@@ -62,8 +62,8 @@
               
                            
            </div>
-                        <h5>Usuario</h5>
-                       <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/2.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton1_Click"  />
+                        <h5>User</h5>
+                       <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/2.jpg" Width="170px" Height="170px" runat="server" OnClick="ImageButton1_Click"   />
 
                         <br />
                         <h5>Admin</h5>
