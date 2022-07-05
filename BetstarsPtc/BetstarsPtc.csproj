@@ -158,6 +158,7 @@
     <Content Include="MenuSerieA.aspx" />
     <Content Include="MenuUEFA.aspx" />
     <Content Include="MundialMenu.aspx" />
+    <Content Include="MySql.Data.DLL" />
     <Content Include="RecuperarCuenta.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="SweetAlert\sweetalert2.all.min.js" />
