@@ -63,10 +63,14 @@
                             <h3> </h3>                            
                         </div>
                         <div>
-                            <asp:Button ID="Button1" runat="server" Text="Agregar Ganadores" Height= "200px" Width="200px" OnClick="Button1_Click"/>
-                             <asp:Button ID="Button4" runat="server" Text="Ver Ganadores" Height= "200px" Width="200px" OnClick="Button4_Click"/>
-                            <asp:Button ID="Button2" runat="server" Text="Ver Usuarios" Height= "200px" Width="200px" OnClick="Button2_Click"/>
-                            <asp:Button ID="Button3" runat="server" Text="Ver Apuestas" Height= "200px" Width="200px" OnClick="Button3_Click"/>
+                            <h5>Agregar Ganadores</h5>
+                              <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton1_Click"   />
+                             <h5>Ver Gandores</h5>
+                              <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton2_Click"   />
+                            <h5>Ver Usuarios</h5>
+                            <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/2.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton3_Click"  />
+                            <h5>Ver Apuestas</h5>
+                            <asp:ImageButton CssClass="btn-xl" ID="ImageButton4" ImageUrl="~/Imagenes/Ganadores.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton4_Click" />
 
            </div>
                         

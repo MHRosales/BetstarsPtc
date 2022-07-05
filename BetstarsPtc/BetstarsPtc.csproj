@@ -96,7 +96,7 @@
     <Content Include="GanadoresSerieA.aspx" />
     <Content Include="GanadoresUEFA.aspx" />
     <Content Include="Idioma.aspx" />
-    <Content Include="Imagenes\1f3c6.jpg" />
+    <Content Include="Imagenes\1.jpg" />
     <Content Include="Imagenes\2.jpg" />
     <Content Include="Imagenes\3.jpg" />
     <Content Include="Imagenes\ArgentinaMex.jpg" />
@@ -114,7 +114,7 @@
     <Content Include="Imagenes\premier.png" />
     <Content Include="Imagenes\SerieA.jpg" />
     <Content Include="Imagenes\QatarEcuador.jpg" />
-    <Content Include="Imagenes\sports-betting-hero-2.jpg" />
+    <Content Include="Imagenes\Ganadores.jpg" />
     <Content Include="Imagenes\uefa.jpg" />
     <Content Include="Imagenes\user_icon_143482.png" />
     <Content Include="Imagenes\Video6.mp4" />
