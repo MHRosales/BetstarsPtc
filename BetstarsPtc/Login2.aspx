@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-            <asp:Button ID="Button1" runat="server" Text="Regresar" OnClick="Button1_Click" />
+            <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Salir</a>
         </nav>
         <div class="my-content">
             <div class="container">

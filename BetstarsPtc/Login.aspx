@@ -26,7 +26,7 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
 <%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
-            <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Salir</a>
+            <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Registro</a>
 
         </nav>
         <div class="my-content">
@@ -61,7 +61,8 @@
                                 <asp:Button runat="server" Text="Entrar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" OnClientClick="Unnamed2_Click"></asp:Button>
 
                                 <div>
-                                    <asp:HyperLink ID="olvidaste" runat="server" CssClass="olvidaste" Text="¿Has olvidado tu contraseña?" NavigateUrl="RecuperarCuenta.aspx" />
+                                   <a class="nav-link" href="RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> ¿Has olvidado tu contraseña?</a>
+                                   
                                 </div>
 
                                 <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
