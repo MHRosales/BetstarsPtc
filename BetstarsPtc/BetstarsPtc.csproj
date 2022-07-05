@@ -71,7 +71,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
+    <Content Include="ApuestaLaliga1.aspx" />
+    <Content Include="ApuestaLaliga2.aspx" />
+    <Content Include="ApuestaMLB1.aspx" />
+    <Content Include="ApuestaMLB2.aspx" />
     <Content Include="ApuestaMundial1.aspx" />
+    <Content Include="ApuestaMundial2.aspx" />
+    <Content Include="ApuestaNba1.aspx" />
+    <Content Include="ApuestaNba2.aspx" />
+    <Content Include="ApuestaNfl1.aspx" />
+    <Content Include="ApuestaNfl2.aspx" />
+    <Content Include="ApuestaPremier1.aspx" />
+    <Content Include="ApuestaPremier2.aspx" />
+    <Content Include="ApuestaSerieA1.aspx" />
+    <Content Include="ApuestaSerieA2.aspx" />
+    <Content Include="ApuestaUEFA1.aspx" />
+    <Content Include="ApuestaUEFA2.aspx" />
     <Content Include="CrudGanadores.aspx" />
     <Content Include="CrudMisApuestas.aspx" />
     <Content Include="CrudUsuarios.aspx" />
@@ -158,12 +173,117 @@
       <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Agregar.cs" />
+    <Compile Include="ApuestaLaliga1.aspx.cs">
+      <DependentUpon>ApuestaLaliga1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaLaliga1.aspx.designer.cs">
+      <DependentUpon>ApuestaLaliga1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaLaliga2.aspx.cs">
+      <DependentUpon>ApuestaLaliga2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaLaliga2.aspx.designer.cs">
+      <DependentUpon>ApuestaLaliga2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaMLB1.aspx.cs">
+      <DependentUpon>ApuestaMLB1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaMLB1.aspx.designer.cs">
+      <DependentUpon>ApuestaMLB1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaMLB2.aspx.cs">
+      <DependentUpon>ApuestaMLB2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaMLB2.aspx.designer.cs">
+      <DependentUpon>ApuestaMLB2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ApuestaMundial1.aspx.cs">
       <DependentUpon>ApuestaMundial1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ApuestaMundial1.aspx.designer.cs">
       <DependentUpon>ApuestaMundial1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaMundial2.aspx.cs">
+      <DependentUpon>ApuestaMundial2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaMundial2.aspx.designer.cs">
+      <DependentUpon>ApuestaMundial2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaNba1.aspx.cs">
+      <DependentUpon>ApuestaNba1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaNba1.aspx.designer.cs">
+      <DependentUpon>ApuestaNba1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaNba2.aspx.cs">
+      <DependentUpon>ApuestaNba2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaNba2.aspx.designer.cs">
+      <DependentUpon>ApuestaNba2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaNfl1.aspx.cs">
+      <DependentUpon>ApuestaNfl1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaNfl1.aspx.designer.cs">
+      <DependentUpon>ApuestaNfl1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaNfl2.aspx.cs">
+      <DependentUpon>ApuestaNfl2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaNfl2.aspx.designer.cs">
+      <DependentUpon>ApuestaNfl2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaPremier1.aspx.cs">
+      <DependentUpon>ApuestaPremier1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaPremier1.aspx.designer.cs">
+      <DependentUpon>ApuestaPremier1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaPremier2.aspx.cs">
+      <DependentUpon>ApuestaPremier2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaPremier2.aspx.designer.cs">
+      <DependentUpon>ApuestaPremier2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaSerieA1.aspx.cs">
+      <DependentUpon>ApuestaSerieA1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaSerieA1.aspx.designer.cs">
+      <DependentUpon>ApuestaSerieA1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaSerieA2.aspx.cs">
+      <DependentUpon>ApuestaSerieA2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaSerieA2.aspx.designer.cs">
+      <DependentUpon>ApuestaSerieA2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaUEFA1.aspx.cs">
+      <DependentUpon>ApuestaUEFA1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaUEFA1.aspx.designer.cs">
+      <DependentUpon>ApuestaUEFA1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ApuestaUEFA2.aspx.cs">
+      <DependentUpon>ApuestaUEFA2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApuestaUEFA2.aspx.designer.cs">
+      <DependentUpon>ApuestaUEFA2.aspx</DependentUpon>
     </Compile>
     <Compile Include="conexiones.cs" />
     <Compile Include="CrudGanadores.aspx.cs">

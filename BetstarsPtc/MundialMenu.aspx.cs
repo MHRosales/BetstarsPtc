@@ -32,7 +32,7 @@ namespace BetstarsPtc
 
         protected void ImageButton6_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("~/ApuestaMundial1.aspx");
+            Response.Redirect("~/ApuestaMundial2.aspx");
 
         }
     }
