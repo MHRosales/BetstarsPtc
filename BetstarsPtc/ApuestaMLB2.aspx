@@ -47,8 +47,8 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Qatar</asp:ListItem>
-                                <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Yankees</asp:ListItem>
+                                <asp:ListItem>Red Sox</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
@@ -75,6 +75,11 @@
                                         <asp:ListItem>8</asp:ListItem>
                                         <asp:ListItem>9</asp:ListItem>
                                         <asp:ListItem>10</asp:ListItem>
+                                        <asp:ListItem>11</asp:ListItem>
+                                        <asp:ListItem>12</asp:ListItem>
+                                        <asp:ListItem>13</asp:ListItem>
+                                        <asp:ListItem>14</asp:ListItem>
+                                        <asp:ListItem>15</asp:ListItem>
                                     </asp:DropDownList>
                                     
                                     
@@ -92,6 +97,11 @@
                                         <asp:ListItem>8</asp:ListItem>
                                         <asp:ListItem>9</asp:ListItem>
                                         <asp:ListItem>10</asp:ListItem>
+                                        <asp:ListItem>11</asp:ListItem>
+                                        <asp:ListItem>12</asp:ListItem>
+                                        <asp:ListItem>13</asp:ListItem>
+                                        <asp:ListItem>14</asp:ListItem>
+                                        <asp:ListItem>15</asp:ListItem>
                                     </asp:DropDownList>
                                    
                                 </h3>

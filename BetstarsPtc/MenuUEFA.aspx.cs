@@ -21,12 +21,12 @@ namespace BetstarsPtc
 
         protected void ImageButton13_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ApuestaMundial1.aspx");
+            Response.Redirect("ApuestaUEFA1.aspx");
         }
 
         protected void ImageButton14_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ApuestaMundial1.aspx");
+            Response.Redirect("ApuestaUEFA2.aspx");
         }
     }
 }
