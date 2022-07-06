@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Login</title>
+    <title>Ganadores MLB</title>
 </head>
 <body>
 
@@ -46,8 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Qatar</asp:ListItem>
-                                <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Mets</asp:ListItem>
+                                <asp:ListItem>Dodgers</asp:ListItem>
+                                <asp:ListItem>Yankees</asp:ListItem>
+                                <asp:ListItem>Red Sox</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
@@ -74,13 +76,18 @@
                                         <asp:ListItem>8</asp:ListItem>
                                         <asp:ListItem>9</asp:ListItem>
                                         <asp:ListItem>10</asp:ListItem>
+                                        <asp:ListItem>11</asp:ListItem>
+                                        <asp:ListItem>12</asp:ListItem>
+                                        <asp:ListItem>13</asp:ListItem>
+                                        <asp:ListItem>14</asp:ListItem>
+                                        <asp:ListItem>15</asp:ListItem>
                                     </asp:DropDownList>
                                     
                                     
                                     <asp:Label ID="Label4" runat="server" Text="-"></asp:Label>
                                    
                                     <asp:DropDownList ID="DropDownList3" runat="server">
-                                        <asp:ListItem>0</asp:ListItem>
+                                       <asp:ListItem>0</asp:ListItem>
                                         <asp:ListItem>1</asp:ListItem>
                                         <asp:ListItem>2</asp:ListItem>
                                         <asp:ListItem>3</asp:ListItem>
@@ -91,6 +98,11 @@
                                         <asp:ListItem>8</asp:ListItem>
                                         <asp:ListItem>9</asp:ListItem>
                                         <asp:ListItem>10</asp:ListItem>
+                                        <asp:ListItem>11</asp:ListItem>
+                                        <asp:ListItem>12</asp:ListItem>
+                                        <asp:ListItem>13</asp:ListItem>
+                                        <asp:ListItem>14</asp:ListItem>
+                                        <asp:ListItem>15</asp:ListItem>
                                     </asp:DropDownList>
                                    
                                 </h3>

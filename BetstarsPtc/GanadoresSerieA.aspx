@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Login</title>
+    <title>Ganadores Serie A</title>
 </head>
 <body>
 
@@ -46,8 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Qatar</asp:ListItem>
-                                <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Inter di Milano</asp:ListItem>
+                                <asp:ListItem>Juventus</asp:ListItem>
+                                <asp:ListItem>Roma</asp:ListItem>
+                                <asp:ListItem>Napoli</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

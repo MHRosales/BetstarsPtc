@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Premier</title>
+    <title>Ganadores Premier</title>
 </head>
 <body>
 
@@ -46,8 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Qatar</asp:ListItem>
-                                <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Chelsea Fc</asp:ListItem>
+                                <asp:ListItem>Manchester City FC</asp:ListItem>
+                                 <asp:ListItem>Manchester United</asp:ListItem>
+                                <asp:ListItem>Liverpool FC</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

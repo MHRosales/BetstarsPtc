@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Login</title>
+    <title>Ganadores Mundial</title>
 </head>
 <body>
 
@@ -48,6 +48,8 @@
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Qatar</asp:ListItem>
                                 <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Argentina</asp:ListItem>
+                                <asp:ListItem>Mexico</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

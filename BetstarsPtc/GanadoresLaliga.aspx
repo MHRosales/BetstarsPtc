@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Login</title>
+    <title>Ganadores La liga</title>
 </head>
 <body>
 
@@ -46,8 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Qatar</asp:ListItem>
-                                <asp:ListItem>Ecuador</asp:ListItem>
+                                <asp:ListItem>Barcelona</asp:ListItem>
+                                <asp:ListItem>Atletico de Madrid</asp:ListItem>
+                                 <asp:ListItem>Real Sociedad</asp:ListItem>
+                                <asp:ListItem>Villareal</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
