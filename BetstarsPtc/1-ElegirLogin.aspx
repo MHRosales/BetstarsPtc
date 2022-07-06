@@ -45,7 +45,7 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
-  
+  <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Back</a>
     
   
   
@@ -77,7 +77,7 @@
             
         
             </main>
-        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video9.mp4" type="video/mp4" /></video>
+        <video muted="muted" autoplay="" loop=""><source src="../Imagenes/Video11.mp4" type="video/mp4" /></video>
         
  </form>
 </body>
