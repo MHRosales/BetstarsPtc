@@ -115,11 +115,8 @@
                     
                         </form>
 
-                   </div>
-              </div>
-           </div>
-        </div>
-    </div>
+                  
+    
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
  <script src="js/bootstrap.min.js"></script> 
  </form>

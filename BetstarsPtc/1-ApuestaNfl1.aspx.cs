@@ -65,7 +65,7 @@ namespace BetstarsPtc
                     Puntos2 = TextBox2.Text;
                     Apuesta = TextBox3.Text;
 
-                    if (conexiones.ApuestasRepetidos(Ganador, Puntos1, Puntos2, Apuesta, usuario) == 0)
+                    if (conexiones.NflRepetidos1(Ganador, Puntos1, Puntos2, Apuesta, usuario) == 0)
                     {
 
 
