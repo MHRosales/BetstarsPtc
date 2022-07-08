@@ -15,7 +15,7 @@
         <link href="EstilosCss/Login2.css" rel="stylesheet" /> 
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title>Registro</title>
+    <title> BetStars | Registro</title>
 </head>
 <body>
     <form runat="server" >
@@ -59,18 +59,18 @@
                      <h1>  Registro </h1>
                     <div class="myform-top">
                         <div class="myform-top-left">
-                            <h3> Registrese</h3>                            
+                            <h3> Regístrese </h3>                            
                         </div>
 
                     </div>
                     <div class="myform-bottom">
                         </div>
                             <div class="form-group"> 
-                                <h4>Ingrese su nombre</h4>
+                                <h4>Ingrese su Nombres</h4>
                                 <asp:TextBox ID="txtfirst" runat="server"  placeholder="Nombres..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30"  onkeypress="return validar(event)" ></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
-                                <h4>Ingrese su Apellido</h4>
+                                <h4>Ingrese su Apellidos</h4>
                                 <asp:TextBox ID="txtapellido" runat="server"  placeholder="Apellidos..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30" onkeypress="return validar(event)"></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
@@ -86,22 +86,22 @@
                                 <asp:TextBox ID="txtconfirm" runat="server"  placeholder="Repita Contraseña..." type="password" class="form-control"  onpaste="return false" minlength="2" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
-                                <h4>Ingrese su Correo electronico</h4>
+                                <h4>Ingrese su Correo Electrónico</h4>
                                 <asp:TextBox ID="txtgmail" runat="server"  placeholder="Gmail..." type="email" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
                              <div class="form-group"> 
-                                 <h4>Ingrese su Numero de tarjeta</h4>
+                                 <h4>Ingrese su Número de Tarjeta</h4>
                                 <asp:TextBox ID="txtTarjeta" runat="server"  placeholder="Tarjeta..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
                             <div class="form-group"> 
-                                <h4>Ingrese el CVV de su tarjeta</h4>
+                                <h4>Ingrese el CVV de su Tarjeta</h4>
                                 <asp:TextBox ID="txtCvv" runat="server"  placeholder="CVV..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="3" maxlength="30"/>
                             </div>
                             <div class="form-group"> 
-                                <h4>Ingrese la Fecha de caducidad de su tarjeta</h4>
+                                <h4>Ingrese la Fecha de caducidad de su Tarjeta</h4>
                                 <asp:TextBox ID="txtFecha" runat="server"  placeholder="Fecha de Caducidad..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
-                             <h4>Ingrese su Fecha de nacimiento</h4>
+                             <h4>Ingrese su Fecha de Nacimiento</h4>
                             
                              <asp:TextBox ID="txtFechaNac" TextMode="Date" CssClass="form-control" runat="server"></asp:TextBox>
                              <div class="form-group"> 

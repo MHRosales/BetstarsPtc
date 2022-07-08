@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores Serie A</title>
+    <title> BetStars | Ganadores Serie A</title>
 </head>
 <body>
 
@@ -39,17 +39,17 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Ganadores </h1>
+                        <h1> Ganadores </h1>
                          
                         <div>
                             <h3>
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Inter di Milano</asp:ListItem>
-                                <asp:ListItem>Juventus</asp:ListItem>
-                                <asp:ListItem>Roma</asp:ListItem>
-                                <asp:ListItem>Napoli</asp:ListItem>
+                                <asp:ListItem>Inter de Milán</asp:ListItem>
+                                <asp:ListItem>Juventus de Turín</asp:ListItem>
+                                <asp:ListItem>AS Roma</asp:ListItem>
+                                <asp:ListItem>SCC Napolés</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

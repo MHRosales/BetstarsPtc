@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores NBA</title>
+    <title>BetStars | NBA</title>
 </head>
 <body>
 

@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores NBA</title>
+    <title> BetStars | Ganadores NBA</title>
 </head>
 <body>
 
@@ -46,10 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Warriors</asp:ListItem>
-                                <asp:ListItem>Celtics</asp:ListItem>
-                                <asp:ListItem>Mavericks</asp:ListItem>
-                                <asp:ListItem>Heats</asp:ListItem>
+                                <asp:ListItem> Los Golden State Warriors</asp:ListItem>
+                                <asp:ListItem> Los Boston Celtics</asp:ListItem>
+                                <asp:ListItem> Los Dallas Mavericks</asp:ListItem>
+                                <asp:ListItem> Los Miami Heats</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

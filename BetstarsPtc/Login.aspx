@@ -16,7 +16,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Login</title>
+    <title>BetStars | Inicio de Sesión</title>
 </head>
 <body>
 
@@ -40,11 +40,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Login </h1>
+                        <h1>Iniciar Sesión </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                                <p>Digite tu usuario y contraseña </p>
+                                <p>Digite su usuario y contraseña </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>

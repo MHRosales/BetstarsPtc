@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>La  Liga</title>
+    <title>La Liga</title>
 </head>
 <body>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Your Bet </h1>
+                        <h1> Your Bet </h1>
                          
                         <div>
                             <h3>

@@ -10,7 +10,7 @@ namespace BetstarsPtc
     {
         public static MySqlConnection ObtenerConexion()
         {
-            MySqlConnection datos = new MySqlConnection("server=127.0.0.1; database=rosalesproyecto; Uid=root; pwd=;");
+            MySqlConnection datos = new MySqlConnection("server=127.0.0.1; database=rosalesproyecto; Uid=root; pwd=info2022;");
             datos.Open();
             return datos;
         }

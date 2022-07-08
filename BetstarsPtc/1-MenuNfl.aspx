@@ -14,7 +14,7 @@
        
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title>NFL</title>
+    <title>BetStars | NFL</title>
         <style type="text/css">
             .col-sn-12 {
                 margin-left: 0px;

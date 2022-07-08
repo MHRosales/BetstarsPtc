@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores MLB</title>
+    <title> BetStars | Ganadores MLB</title>
 </head>
 <body>
 
@@ -46,10 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Mets</asp:ListItem>
-                                <asp:ListItem>Dodgers</asp:ListItem>
-                                <asp:ListItem>Yankees</asp:ListItem>
-                                <asp:ListItem>Red Sox</asp:ListItem>
+                                <asp:ListItem>Mets de Nueva York</asp:ListItem>
+                                <asp:ListItem> Los Angeles Dodgers</asp:ListItem>
+                                <asp:ListItem>Los Yankees de Nueva York</asp:ListItem>
+                                <asp:ListItem>Los Red Sox de Boston</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

@@ -16,7 +16,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Idioma-Idiom</title>
+    <title>BetStars | Idioma-Idiom</title>
 </head>
 <body>
 
@@ -36,8 +36,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Elija Su idioma </h1>
-                        <h3>Choose your language </h3>
+                        <h1>Elija su idioma para entrar </h1>
+                        <h3>Choose your language to enter </h3>
 
                         <div class="myform-top">
                             <div class="myform-top-left">

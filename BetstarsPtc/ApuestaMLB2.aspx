@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>MLB</title>
+    <title>BetStars | MLB</title>
 </head>
 <body>
 

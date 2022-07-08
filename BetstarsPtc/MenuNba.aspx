@@ -59,7 +59,7 @@
     
                     <div class="myform-top">
                         <div class="myform-top-left">
-                            <h3> Buena Suerte</h3>                            
+                            <h3> ¡Buena Suerte! </h3>                            
                         </div>
                         <div>
               

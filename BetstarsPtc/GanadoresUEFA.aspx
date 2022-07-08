@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores UEFA</title>
+    <title> BetStars | Ganadores UEFA</title>
 </head>
 <body>
 
@@ -39,17 +39,17 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Ganadores </h1>
+                        <h1> Ganadores </h1>
                          
                         <div>
                             <h3>
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Manchester United</asp:ListItem>
-                                <asp:ListItem>Real Madrid</asp:ListItem>
+                                <asp:ListItem>Manchester United FC</asp:ListItem>
+                                <asp:ListItem>Real Madrid CF</asp:ListItem>
                                 <asp:ListItem>PSG</asp:ListItem>
-                                <asp:ListItem>Liverpool</asp:ListItem>
+                                <asp:ListItem>Liverpool FC</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

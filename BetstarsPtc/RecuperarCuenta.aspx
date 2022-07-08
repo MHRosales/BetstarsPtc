@@ -15,7 +15,7 @@
     <link href="EstilosCss/Login2.css" rel="stylesheet" />
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
-    <title>Recuperar Cuenta</title>
+    <title> BetStars | Recuperar Cuenta</title>
 </head>
 <body>
     <form runat="server">

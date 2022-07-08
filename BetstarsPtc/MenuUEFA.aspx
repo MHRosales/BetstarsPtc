@@ -16,7 +16,7 @@
        
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title>UEFA</title>
+    <title>BetStars | UEFA</title>
         <style type="text/css">
             .col-sn-12 {
                 margin-left: 0px;
@@ -59,7 +59,7 @@
     
                     <div class="myform-top">
                         <div class="myform-top-left">
-                            <h3> Buena Suerte</h3>                            
+                            <h3> ¡Buena Suerte! </h3>                            
                         </div>
                         <div>
               

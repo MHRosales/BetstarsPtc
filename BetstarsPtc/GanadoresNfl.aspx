@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores NFL</title>
+    <title> BetStars | Ganadores NFL</title>
 </head>
 <body>
 
@@ -46,10 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Rams</asp:ListItem>
-                                <asp:ListItem>Bengals</asp:ListItem>
-                                <asp:ListItem>Patriots</asp:ListItem>
-                                <asp:ListItem>Bills</asp:ListItem>
+                                <asp:ListItem> Los Angeles Rams</asp:ListItem>
+                                <asp:ListItem> Los Cincinati Bengals</asp:ListItem>
+                                <asp:ListItem> Los New England Patriots</asp:ListItem>
+                                <asp:ListItem>Los Buffalo Bills</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
