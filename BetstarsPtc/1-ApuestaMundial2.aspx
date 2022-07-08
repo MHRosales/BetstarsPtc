@@ -27,7 +27,7 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
 <%--            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />--%>
-                <a class="nav-link" href="MundialMenu.aspx" font-family="Avenir Next LT Pro"> Regresar</a>
+                <a class="nav-link" href="1-MenuMundial.aspx" font-family="Avenir Next LT Pro"> Back</a>
 
         </nav>
         <div class="my-content">
@@ -40,11 +40,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Apuesta </h1>
+                        <h1>Your Bet </h1>
                          
                         <div>
                             <h3>
-                                <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
+                                <asp:Label ID="Label1" runat="server" Text="Who will be the winner?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Argentina</asp:ListItem>
@@ -59,7 +59,7 @@
                            <br />
                             <div class="myform-top-left">
                                 <h3>
-                                    <asp:Label ID="Label2" runat="server" Text="Marcador Final"></asp:Label>
+                                    <asp:Label ID="Label2" runat="server" Text="Final Score"></asp:Label>
                                     <br />
                                     
                                     
@@ -98,7 +98,7 @@
                                 <div>
                                   <br />
                                     <h3>
-                                        <asp:Label ID="Label3" runat="server" Text="Su Apuesta"></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text="How much you want to bet?"></asp:Label>
                                          <br />
                                         <asp:DropDownList ID="DropDownList4" runat="server">
                                         <asp:ListItem>$1</asp:ListItem>
@@ -115,7 +115,7 @@
                                         <br />
                                   
                                     </h3>
-                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click" />
+                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar"  />
             
                                 </div>
                                 <p> &nbsp;</p>
@@ -153,27 +153,27 @@
               <h1>Verifique sus Datos</h1>
         
             <div class="form-group">
-            <asp:TextBox ID="TextBox4" ReadOnly runat="server" placeholder="Ganador..." type="Ganador" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TextBox4" ReadOnly runat="server" placeholder="Winner..." type="Ganador" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <div class="form-group">
-             <asp:TextBox ID="TextBox1" ReadOnly runat="server" placeholder="Puntos..." type="Puntos1" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+             <asp:TextBox ID="TextBox1" ReadOnly runat="server" placeholder="Score..." type="Puntos1" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <div class="form-group">
-             <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Puntos..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+             <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Score..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
-            <asp:TextBox ID="TextBox3"  ReadOnly runat="server" placeholder="Apuesta..." type="Apuesta" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TextBox3"  ReadOnly runat="server" placeholder="Bet..." type="Apuesta" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <br />
             <h1> Ingrese sus datos para Finalizar la apuesta</h1>
              <div class="form-group">
-            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Usuario" type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User Name..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
             <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
-            <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Guardar" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Guardar"  />
         </main>
        
             
