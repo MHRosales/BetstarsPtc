@@ -99,7 +99,7 @@
                                 <div>
                                   <br />
                                    
-                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Save"  />
+                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Save" OnClick="Button1_Click"  />
             
                                 </div>
                                 <p> &nbsp;</p>
@@ -154,7 +154,7 @@
             <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
-            <asp:Button ID="Button2" runat="server" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" Text="Save"  />
+            <asp:Button ID="Button2" runat="server" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" Text="Save" OnClick="Button2_Click"  />
         </main>
        
             

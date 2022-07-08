@@ -80,16 +80,16 @@ namespace BetstarsPtc
                     smtp.Send(message);//Enviar el correo
                 }
 
-                alertas.Text = "<script>Swal.fire('El correo enviado con éxito', 'Contraseña recuperada', 'success');</script>";
+                alertas.Text = "<script>Swal.fire('The email has been sent successfully.', 'Password Recovered', 'success');</script>";
             }
             catch
             {
-                alertas.Text = "<script>Swal.fire('Algo salió mal', 'Revisa tu usuario.', 'error');</script>";
+                    alertas.Text = "<script>Swal.fire('There is something wrong', 'Your username or password is not correct', 'error') </script>";
             }
         }
         else
         {
-            alertas.Text = "<script>Swal.fire('Error', 'No deje espacios en blanco.', 'error');</script>";
+                alertas.Text = "<script>Swal.fire('OOPS', 'Do not leave blank spaces', 'error') </script>";
         }
     }
 
