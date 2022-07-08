@@ -47,9 +47,9 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Inter de Milaan</asp:ListItem>
-                                <asp:ListItem>Juventus</asp:ListItem>
-                                <asp:ListItem>Roma</asp:ListItem>
-                                <asp:ListItem>Napoli</asp:ListItem>
+                                <asp:ListItem>Juventus de Turín</asp:ListItem>
+                                <asp:ListItem>AS Roma</asp:ListItem>
+                                <asp:ListItem> SSC Napolés</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
