@@ -88,6 +88,14 @@
     <Content Include="1-ApuestaUEFA1.aspx" />
     <Content Include="1-ApuestaUEFA2.aspx" />
     <Content Include="1-ElegirLogin.aspx" />
+    <Content Include="1-GanadoresLaliga.aspx" />
+    <Content Include="1-GanadoresMLB.aspx" />
+    <Content Include="1-GanadoresMundial.aspx" />
+    <Content Include="1-GanadoresNba.aspx" />
+    <Content Include="1-GanadoresNfl.aspx" />
+    <Content Include="1-GanadoresPremier.aspx" />
+    <Content Include="1-GanadoresSerieA.aspx" />
+    <Content Include="1-GanadoresUEFA.aspx" />
     <Content Include="1-Login.aspx" />
     <Content Include="1-Login2.aspx" />
     <Content Include="1-Menu.aspx" />
@@ -338,6 +346,62 @@
     </Compile>
     <Compile Include="1-ElegirLogin.aspx.designer.cs">
       <DependentUpon>1-ElegirLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresLaliga.aspx.cs">
+      <DependentUpon>1-GanadoresLaliga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresLaliga.aspx.designer.cs">
+      <DependentUpon>1-GanadoresLaliga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresMLB.aspx.cs">
+      <DependentUpon>1-GanadoresMLB.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresMLB.aspx.designer.cs">
+      <DependentUpon>1-GanadoresMLB.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresMundial.aspx.cs">
+      <DependentUpon>1-GanadoresMundial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresMundial.aspx.designer.cs">
+      <DependentUpon>1-GanadoresMundial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresNba.aspx.cs">
+      <DependentUpon>1-GanadoresNba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresNba.aspx.designer.cs">
+      <DependentUpon>1-GanadoresNba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresNfl.aspx.cs">
+      <DependentUpon>1-GanadoresNfl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresNfl.aspx.designer.cs">
+      <DependentUpon>1-GanadoresNfl.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresPremier.aspx.cs">
+      <DependentUpon>1-GanadoresPremier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresPremier.aspx.designer.cs">
+      <DependentUpon>1-GanadoresPremier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresSerieA.aspx.cs">
+      <DependentUpon>1-GanadoresSerieA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresSerieA.aspx.designer.cs">
+      <DependentUpon>1-GanadoresSerieA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-GanadoresUEFA.aspx.cs">
+      <DependentUpon>1-GanadoresUEFA.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-GanadoresUEFA.aspx.designer.cs">
+      <DependentUpon>1-GanadoresUEFA.aspx</DependentUpon>
     </Compile>
     <Compile Include="1-Login.aspx.cs">
       <DependentUpon>1-Login.aspx</DependentUpon>

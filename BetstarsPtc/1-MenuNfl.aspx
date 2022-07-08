@@ -42,11 +42,11 @@
                 }
             </script>    
     
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <!-- Brand -->
-  <a class="navbar-brand" href="#">Betstars</a>
-<%--    <asp:Button ID="Button7" runat="server" Text="Regresar" BackColor="Red" BorderColor="Red" OnClick="Button7_Click" />--%>
-        <a class="nav-link" href="1-Menu.aspx" font-family="Avenir Next LT Pro"> Back</a>
+                     <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+                     <!-- Brand -->
+                      <a class="navbar-brand" href="#">Betstars</a>
+<%--                    <asp:Button ID="Button7" runat="server" Text="Regresar" BackColor="Red" BorderColor="Red" OnClick="Button7_Click" />--%>
+                        <a class="nav-link" href="1-Menu.aspx" font-family="Avenir Next LT Pro"> Back</a>
 
   
   
@@ -64,11 +64,11 @@
 
            </div>
                        
-                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/RamsBengals.jpg" Width="600px" Height="300px" runat="server"   />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/RamsBengals.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton1_Click"   />
 
                         <br />
                         <br />
-                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/BillsPatriots.jpg" Width="600px" Height="300px" runat="server"   />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/BillsPatriots.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton2_Click"   />
 
                         <br />
                         <br />
