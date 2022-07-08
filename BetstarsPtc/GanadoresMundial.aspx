@@ -39,7 +39,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Apuesta </h1>
+                        <h1>Ganadores </h1>
                          
                         <div>
                             <h3>

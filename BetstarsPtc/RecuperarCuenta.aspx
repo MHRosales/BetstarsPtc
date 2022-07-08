@@ -54,7 +54,7 @@
                                     <asp:TextBox ID="txtcuenta" runat="server" placeholder="Usuaraio..." type="text" class="form-control" />
                                 </div>
 
-                                <asp:Button runat="server" Text="Recuperar" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"></asp:Button>
+                                <asp:Button runat="server" Text="Recuperar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"></asp:Button>
 
 
                             </form>

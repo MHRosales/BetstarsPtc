@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GanadoresPremier.aspx.cs" Inherits="BetstarsPtc.GanadoresPremier" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-ApuestaLaliga2.aspx.cs" Inherits="BetstarsPtc._1_ApuestaLaliga2" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores Premier</title>
+    <title>La  Liga</title>
 </head>
 <body>
 
@@ -26,8 +26,9 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-          <a class="nav-link" href="MenuGanadores.aspx" font-family="Avenir Next LT Pro"> Regresar</a>
-            
+<%--            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />--%>
+                <a class="nav-link" href="MenuLaliga.aspx" font-family="Avenir Next LT Pro"> Regresar</a>
+
         </nav>
         <div class="my-content">
             <div class="container">
@@ -39,17 +40,15 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Ganadores </h1>
+                        <h1>Apuesta </h1>
                          
                         <div>
                             <h3>
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Chelsea Fc</asp:ListItem>
-                                <asp:ListItem>Manchester City FC</asp:ListItem>
-                                 <asp:ListItem>Manchester United</asp:ListItem>
-                                <asp:ListItem>Liverpool FC</asp:ListItem>
+                                <asp:ListItem>Real Sociedad</asp:ListItem>
+                                <asp:ListItem>Villareal</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
@@ -98,8 +97,25 @@
                                 </h3>
                                 <div>
                                   <br />
-                                   
-                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click" />
+                                    <h3>
+                                        <asp:Label ID="Label3" runat="server" Text="Su Apuesta"></asp:Label>
+                                         <br />
+                                        <asp:DropDownList ID="DropDownList4" runat="server">
+                                        <asp:ListItem>$1</asp:ListItem>
+                                        <asp:ListItem>$2</asp:ListItem>
+                                        <asp:ListItem>$3</asp:ListItem>
+                                        <asp:ListItem>$4</asp:ListItem>
+                                        <asp:ListItem>$5</asp:ListItem>
+                                        <asp:ListItem>$6</asp:ListItem>
+                                        <asp:ListItem>$7</asp:ListItem>
+                                        <asp:ListItem>$8</asp:ListItem>
+                                        <asp:ListItem>$9</asp:ListItem>
+                                        <asp:ListItem>$10</asp:ListItem>
+                                        </asp:DropDownList>
+                                        <br />
+                                  
+                                    </h3>
+                                    <asp:Button ID="Button1" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server" Text="Guardar" OnClick="Button1_Click"  />
             
                                 </div>
                                 <p> &nbsp;</p>
@@ -145,6 +161,9 @@
             <div class="form-group">
              <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Puntos..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
+             <div class="form-group">
+            <asp:TextBox ID="TextBox3"  ReadOnly runat="server" placeholder="Apuesta..." type="Apuesta" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            </div>
             <br />
             <h1> Ingrese sus datos para Finalizar la apuesta</h1>
              <div class="form-group">
@@ -154,7 +173,7 @@
             <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
-            <asp:Button ID="Button2" runat="server" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" Text="Guardar" OnClick="Button2_Click" />
+            <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Guardar" OnClick="Button2_Click" />
         </main>
        
             
