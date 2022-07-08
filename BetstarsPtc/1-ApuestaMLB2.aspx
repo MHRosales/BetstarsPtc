@@ -160,7 +160,7 @@
         <br />
         
         <main>
-              <h1>Verifique sus Datos</h1>
+              <h1>Verify your Data</h1>
         
             <div class="form-group">
             <asp:TextBox ID="TextBox4" ReadOnly runat="server" placeholder="Winner..." type="Ganador" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
@@ -175,7 +175,7 @@
             <asp:TextBox ID="TextBox3"  ReadOnly runat="server" placeholder="Bet..." type="Apuesta" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <br />
-            <h1> Ingrese sus datos para Finalizar la apuesta</h1>
+            <h1> Type in your data to finalize your bet</h1>
              <div class="form-group">
             <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User Name..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
