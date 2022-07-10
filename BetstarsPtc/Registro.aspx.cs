@@ -67,7 +67,7 @@ namespace BetstarsPtc
             }
             else
             {
-                alerta.Text = "<script>Swal.fire('OOPS', 'No deje espacios en blanco', 'error') </script>";
+                alerta.Text = "<script>Swal.fire('OOPS', 'No deje espacios e n blanco', 'error') </script>";
             }
         }
 
