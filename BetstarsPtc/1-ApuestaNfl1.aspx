@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>NFL</title>
+    <title>BetStars | NFL</title>
 </head>
 <body>
 
@@ -47,8 +47,8 @@
                                 <asp:Label ID="Label1" runat="server" Text="Who will be the winner?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Rams</asp:ListItem>
-                                <asp:ListItem>Bengals</asp:ListItem>
+                                <asp:ListItem>Los Angeles Rams</asp:ListItem>
+                                <asp:ListItem>Cincinnati Bengals</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

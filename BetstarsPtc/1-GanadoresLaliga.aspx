@@ -47,8 +47,8 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>FC Barcelona</asp:ListItem>
-                                <asp:ListItem>Club Atletico de Madrid</asp:ListItem>
-                                 <asp:ListItem>Real Sociedad</asp:ListItem>
+                                <asp:ListItem>Club Atlético de Madrid</asp:ListItem>
+                                 <asp:ListItem>Real Sociedad de Fútbol</asp:ListItem>
                                 <asp:ListItem>Villareal CF</asp:ListItem>
                                 </asp:DropDownList>
                             

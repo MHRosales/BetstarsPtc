@@ -48,7 +48,7 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>PSG</asp:ListItem>
-                                <asp:ListItem>Liverpool</asp:ListItem>
+                                <asp:ListItem>Liverpool FC</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

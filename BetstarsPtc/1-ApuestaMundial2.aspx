@@ -48,7 +48,7 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Argentina</asp:ListItem>
-                                <asp:ListItem>Mexico</asp:ListItem>
+                                <asp:ListItem>México</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

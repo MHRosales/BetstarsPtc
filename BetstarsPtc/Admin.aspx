@@ -65,7 +65,7 @@
                         <div>
                             <h5>Agregar Ganadores</h5>
                               <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton1_Click"   />
-                             <h5>Ver Gandores</h5>
+                             <h5>Ver Ganadores</h5>
                               <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton2_Click"   />
                             <h5>Ver Usuarios</h5>
                             <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/2.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton3_Click"  />

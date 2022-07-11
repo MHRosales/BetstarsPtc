@@ -46,10 +46,10 @@
                                 <asp:Label ID="Label1" runat="server" Text="Who will be the winner?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Rams</asp:ListItem>
-                                <asp:ListItem>Bengals</asp:ListItem>
-                                <asp:ListItem>Patriots</asp:ListItem>
-                                <asp:ListItem>Bills</asp:ListItem>
+                                <asp:ListItem>Los Angeles Rams</asp:ListItem>
+                                <asp:ListItem>Cincinnati Bengals</asp:ListItem>
+                                <asp:ListItem>New EnglandPatriots</asp:ListItem>
+                                <asp:ListItem>Buffalo Bills</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

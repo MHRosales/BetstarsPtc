@@ -49,7 +49,7 @@
                                 <asp:ListItem>Qatar</asp:ListItem>
                                 <asp:ListItem>Ecuador</asp:ListItem>
                                 <asp:ListItem>Argentina</asp:ListItem>
-                                <asp:ListItem>Mexico</asp:ListItem>
+                                <asp:ListItem>México</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
