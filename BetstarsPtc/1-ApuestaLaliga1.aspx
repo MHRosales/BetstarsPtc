@@ -48,7 +48,7 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>FC Barcelona</asp:ListItem>
-                                <asp:ListItem>Cluv Atlético de Madrid</asp:ListItem>
+                                <asp:ListItem>Club Atletico de Madrid</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>
