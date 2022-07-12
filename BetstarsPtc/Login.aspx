@@ -24,7 +24,7 @@
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Betstars</a>
+            <a class="navbar-brand" href="InicioESPAÑOL.aspx">Betstars</a>
 <%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
             <a class="nav-link" href="Registro.aspx" font-family="Avenir Next LT Pro"> Registro</a>
              <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>

@@ -40,7 +40,7 @@
     
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Betstars</a>
+  <a class="navbar-brand" href="InicioESPAÑOL.aspx">Betstars</a>
   
 <%--  <asp:Button ID="btnlogin" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Login" OnClick="btnlogin_Click" />--%>
         <a class="nav-link" href="Login.aspx" font-family="Avenir Next LT Pro"> Login</a>
