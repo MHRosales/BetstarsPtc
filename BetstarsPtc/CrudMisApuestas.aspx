@@ -69,7 +69,7 @@
                                 <h4>Ingrese el Id de su apuesta</h4>
                                 <asp:TextBox ID="TextBox1" runat="server"  placeholder="ID Apuesta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="10"/>
                             <br />
-                             <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red"  ></asp:Button> 
+                             <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"  ></asp:Button> 
                             </div>
                             <h4> Ganador</h4>
                             <asp:TextBox ID="TextBox2" runat="server"  placeholder="Ganador..." type="Ganador" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
@@ -81,10 +81,15 @@
                             <asp:TextBox ID="TextBox5" runat="server"  placeholder="Apuesta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
                            <h4> Usuario</h4>
                             <asp:TextBox ID="TextBox6" runat="server"  placeholder="Usuario..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
-
+                           <br />
+                           <h4>Ingrese Su contraseña para ver si es ganador</h4>
+                                <asp:TextBox ID="TextBox7" runat="server"  placeholder="Contraseña..." type="Contraseña" class="form-control"  onpaste="return false" minlength="1" maxlength="10"/>
+                            <br />
+                             <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed2_Click"   ></asp:Button> 
+                            </div>
                         <br />
                         <br />
-                       
+                       <asp:Literal ID="alerta" runat="server" Text=""></asp:Literal>
 
                         <br />
                         <br />
