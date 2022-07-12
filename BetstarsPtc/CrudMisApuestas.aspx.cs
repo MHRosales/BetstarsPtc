@@ -129,7 +129,7 @@ namespace BetstarsPtc
                     }
                     else
                     {
-                        alerta.Text = "<script>Swal.fire('Lo lamentamos perdio', 'Suerte la proxima', 'error') </script>";
+                        alerta.Text = "<script>Swal.fire('Lo lamentamos perdio', 'Suerte la próxima', 'error') </script>";
                     }
 
                 }

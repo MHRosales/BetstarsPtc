@@ -45,7 +45,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MySql.Data">
-      <HintPath>..\..\..\Downloads\MySql.Data.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\MySql.Data.DLL</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
