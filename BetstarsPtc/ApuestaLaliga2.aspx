@@ -47,7 +47,7 @@
                                 <asp:Label ID="Label1" runat="server" Text="¿Quién será el Ganador?"></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
-                                <asp:ListItem>Real Sociedad de Fútbol</asp:ListItem>
+                                <asp:ListItem>Real Sociedad</asp:ListItem>
                                 <asp:ListItem>Villareal CF</asp:ListItem>
                                 </asp:DropDownList>
                             
