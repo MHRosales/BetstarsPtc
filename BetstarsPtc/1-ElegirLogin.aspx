@@ -44,8 +44,8 @@
     
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Betstars</a>
-  <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Back</a>
+  <a class="navbar-brand" href="InicioINGLES.aspx">Betstars</a>
+  <a class="nav-link" href="InicioINGLES.aspx" font-family="Avenir Next LT Pro"> Back</a>
     
   
   
