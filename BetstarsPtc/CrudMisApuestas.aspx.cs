@@ -124,7 +124,7 @@ namespace BetstarsPtc
                     int retorno1 = Convert.ToInt32(comando1.ExecuteScalar());
                     if (retorno1 != 0)
                     {
-                        alerta.Text = "<script>Swal.fire('Felicidades has ganado ', '¡Gracias por preferirnos!', 'success'); </script>";
+                        alerta.Text = "<script>Swal.fire('Felicidades has ganado', '¡Gracias por preferirnos!', 'success'); </script>";
 
                     }
                     else
