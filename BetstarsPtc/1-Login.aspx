@@ -26,8 +26,8 @@
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
 <%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Registro" OnClick="Button1_Click" />--%>
-            <a class="nav-link" href="1-Registro.aspx" font-family="Avenir Next LT Pro"> Sign in</a>
-             <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out</a>
+            <a class="nav-link" href="1-Registro.aspx" font-family="Avenir Next LT Pro"> Sign up </a>
+             <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out </a>
 
         </nav>
         <div class="my-content">
@@ -40,11 +40,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Log in </h1>
+                        <h1> Log in </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                                <p>Type in your username and password </p>
+                                <p> Type in your username and password </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
@@ -62,7 +62,7 @@
                                 <asp:Button runat="server" CssClass="btn-xl"  Text="Log in" BackColor="Red" BorderColor="Red" Height="60px" OnClick="Unnamed1_Click"></asp:Button>
 
                                 <div>
-                                   <a class="nav-link" href="1-RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> have you forgotten your password?</a>
+                                   <a class="nav-link" href="1-RecuperarCuenta.aspx" font-family="Avenir Next LT Pro"> Forgot your password? </a>
                                    
                                 </div>
 

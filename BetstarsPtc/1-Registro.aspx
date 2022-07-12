@@ -59,14 +59,14 @@
                      <h1>  Sign in </h1>
                     <div class="myform-top">
                         <div class="myform-top-left">
-                            <h3> Registrese</h3>                            
+                            <h3> Registrese en BetStars </h3>                            
                         </div>
 
                     </div>
                     <div class="myform-bottom">
                         </div>
                             <div class="form-group"> 
-                                <h4>Type in your name </h4>
+                                <h4> Type in your name </h4>
                                 <asp:TextBox ID="txtfirst" runat="server"  placeholder="Name..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30"  onkeypress="return validar(event)" ></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
@@ -74,7 +74,7 @@
                                 <asp:TextBox ID="txtapellido" runat="server"  placeholder="Last name..." type="text" class="form-control"  onpaste="return false"  minlength="5" maxlength="30" onkeypress="return validar(event)"></asp:TextBox> 
                             </div>
                             <div class="form-group"> 
-                                <h4>Type in your user name</h4>
+                                <h4>Type in your username</h4>
                                 <asp:TextBox ID="txtusuario" runat="server"  placeholder="User..." type="text" class="form-control"  onpaste="return false" minlength="5" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
@@ -82,7 +82,7 @@
                                 <asp:TextBox ID="txtclave" runat="server"  placeholder="Password..." type="password" class="form-control"  onpaste="return false" minlength="2" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
-                                <h4>Repeat your password</h4>
+                                <h4>Confirm your password</h4>
                                 <asp:TextBox ID="txtconfirm" runat="server"  placeholder="Repeat your password..." type="password" class="form-control"  onpaste="return false" minlength="2" maxlength="15"/>
                             </div>
                             <div class="form-group"> 
@@ -94,7 +94,7 @@
                                 <asp:TextBox ID="txtTarjeta" runat="server"  placeholder="Card..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="5" maxlength="30"/>
                             </div>
                             <div class="form-group"> 
-                                <h4>Type in your CVV from your credit card</h4>
+                                <h4>Type in the CVV code from your credit card</h4>
                                 <asp:TextBox ID="txtCvv" runat="server"  placeholder="CVV..." type="Tarjeta" class="form-control"  onpaste="return false" minlength="3" maxlength="30"/>
                             </div>
                             <div class="form-group"> 

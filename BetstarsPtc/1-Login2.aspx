@@ -25,7 +25,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
             <a class="navbar-brand" href="#">Betstars</a>
-            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log Out</a>
+            <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log Out </a>
         </nav>
         <div class="my-content">
             <div class="container">
@@ -41,7 +41,7 @@
                         <div class="myform-top">
                             <div class="myform-top-left">
                               
-                                <p>Type in your username and password </p>
+                                <p> Type in your username and password </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>
