@@ -202,7 +202,7 @@ namespace BetstarsPtc
         public static int UEFA(string Ganador, string Puntos1, string Puntos2)
         {
             int retorno = 0;
-            MySqlCommand comando = new MySqlCommand(string.Format("Insert into ganadouefa (Ganador, Puntos_equipo1 ,Puntos_equipo2) values ('{0}','{1}','{2}')", Ganador, Puntos1, Puntos2), datos.ObtenerConexion());
+            MySqlCommand comando = new MySqlCommand(string.Format("Insert into ganadoruefa (Ganador, Puntos_equipo1 ,Puntos_equipo2) values ('{0}','{1}','{2}')", Ganador, Puntos1, Puntos2), datos.ObtenerConexion());
             retorno = comando.ExecuteNonQuery();
 
             return retorno;
