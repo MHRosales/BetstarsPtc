@@ -48,7 +48,7 @@
   <!-- Brand -->
   <a class="navbar-brand" href="#">Betstars</a>
     <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
-    <a class="nav-link body" href="#">Mis Apuestas</a>
+    <a class="nav-link body" href="~/CrudMisApuestas.aspx">Mis Apuestas</a>
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
     <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
