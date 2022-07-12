@@ -72,7 +72,7 @@
                              <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red"  ></asp:Button> 
                             </div>
                             <h4> Ganador</h4>
-                            <asp:TextBox ID="TextBox2" runat="server"  placeholder="Ganador..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox2" runat="server"  placeholder="Ganador..." type="Ganador" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
                             <h4> Puntos equipo 1</h4>
                             <asp:TextBox ID="TextBox3" runat="server"  placeholder="Puntos equipo 1..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
                             <h4> Puntos equipo 2</h4>
