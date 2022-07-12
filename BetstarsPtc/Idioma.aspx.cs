@@ -21,12 +21,12 @@ namespace BetstarsPtc
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("ElegirLogin.aspx");
+            Response.Redirect("InicioESPAÑOL.aspx");
         }
 
         protected void ImageButton2_Click(object sender, ImageClickEventArgs e)
         {
-            Response.Redirect("1-ElegirLogin.aspx");
+            Response.Redirect("InicioINGLES.aspx");
         }
     }
 }
