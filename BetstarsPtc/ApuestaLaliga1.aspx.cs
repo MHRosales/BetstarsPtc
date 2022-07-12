@@ -46,7 +46,7 @@ namespace BetstarsPtc
                 datos1.valorGlobal = usuario;
 
 
-                MySqlConnection conexion = new MySqlConnection("Server=127.0.0.1; database= rosalesproyecto; Uid=root; pwd=;");
+                MySqlConnection conexion = new MySqlConnection("Server=127.0.0.1; database= rosalesproyecto; Uid=root; pwd= conexiones.AgregarUsuario(nombre, apellido, usuario, contra, correo, tarjeta , CVV,  Fecha1,  Fecha2);;");
                 var cmd = "SELECT Id_Usuario from usuarios WHERE Nombre_Usuario='" + usuario + "' AND Password='" + contra + "';";
                 MySqlCommand comando = new MySqlCommand(cmd, conexion);
                 conexion.Open();

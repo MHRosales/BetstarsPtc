@@ -17,7 +17,7 @@ namespace BetstarsPtc
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
-
+                conexiones.AgregarUsuario(nombre, apellido, usuario, contra, correo, tarjeta, CVV, Fecha1, Fecha2);
             }
             else
             {
