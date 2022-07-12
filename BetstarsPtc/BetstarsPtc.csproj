@@ -127,6 +127,22 @@
     <Content Include="ApuestaSerieA2.aspx" />
     <Content Include="ApuestaUEFA1.aspx" />
     <Content Include="ApuestaUEFA2.aspx" />
+    <Content Include="assets4\BetStars %283%29.ico" />
+    <Content Include="assets4\favicon.ico" />
+    <Content Include="assets4\img\01.jpg" />
+    <Content Include="assets4\img\02.jpg" />
+    <Content Include="assets4\img\03.jpg" />
+    <Content Include="assets4\img\betstars1.jpg" />
+    <Content Include="assets4\img\betstars2.jpg" />
+    <Content Include="assets4\img\betstars3.jpg" />
+    <Content Include="assets5\BetStars %283%29.ico" />
+    <Content Include="assets5\favicon.ico" />
+    <Content Include="assets5\img\01.jpg" />
+    <Content Include="assets5\img\02.jpg" />
+    <Content Include="assets5\img\03.jpg" />
+    <Content Include="assets5\img\betstars1.jpg" />
+    <Content Include="assets5\img\betstars2.jpg" />
+    <Content Include="assets5\img\betstars3.jpg" />
     <Content Include="CrudGanadores.aspx" />
     <Content Include="CrudMisApuestas.aspx" />
     <Content Include="CrudMisApuestas1.aspx" />
@@ -145,6 +161,8 @@
     <Content Include="CSS\bootstrap.css" />
     <Content Include="CSS\bootstrap.min.css" />
     <Content Include="CSS\Login.css" />
+    <Content Include="CSS\styles4.css" />
+    <Content Include="CSS\styles5.css" />
     <Content Include="ElegirLogin.aspx" />
     <Content Include="EstilosCss\Login3.css" />
     <Content Include="EstilosCss\Login2.css" />
@@ -207,10 +225,14 @@
     <Content Include="Imagenes\Video2.mp4" />
     <Content Include="Imagenes\Video1.mp4" />
     <Content Include="Imagenes\YankeesSox.jpg" />
+    <Content Include="InicioESPAÑOL.aspx" />
+    <Content Include="InicioINGLES.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\scripts1.js" />
     <Content Include="Login.aspx" />
     <Content Include="Login2.aspx" />
     <Content Include="Menu.aspx" />
@@ -780,6 +802,20 @@
     </Compile>
     <Compile Include="Idioma.aspx.designer.cs">
       <DependentUpon>Idioma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioESPAÑOL.aspx.cs">
+      <DependentUpon>InicioESPAÑOL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioESPAÑOL.aspx.designer.cs">
+      <DependentUpon>InicioESPAÑOL.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InicioINGLES.aspx.cs">
+      <DependentUpon>InicioINGLES.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InicioINGLES.aspx.designer.cs">
+      <DependentUpon>InicioINGLES.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
