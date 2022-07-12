@@ -129,6 +129,14 @@
     <Content Include="ApuestaUEFA2.aspx" />
     <Content Include="CrudGanadores.aspx" />
     <Content Include="CrudMisApuestas.aspx" />
+    <Content Include="CrudMisApuestas1.aspx" />
+    <Content Include="CrudMisApuestas2.aspx" />
+    <Content Include="CrudMisApuestas3.aspx" />
+    <Content Include="CrudMisApuestas4.aspx" />
+    <Content Include="CrudMisApuestas5.aspx" />
+    <Content Include="CrudMisApuestas6.aspx" />
+    <Content Include="CrudMisApuestas7.aspx" />
+    <Content Include="CrudMisApuestasMenu.aspx" />
     <Content Include="CrudUsuarios.aspx" />
     <Content Include="CSS\bootstrap-grid.css" />
     <Content Include="CSS\bootstrap-grid.min.css" />
@@ -164,6 +172,7 @@
     <Content Include="Imagenes\CelticsWarriors.jpg" />
     <Content Include="Imagenes\ChelseaCity.jpg" />
     <Content Include="Imagenes\descarga.png" />
+    <Content Include="Imagenes\video12.mp4" />
     <Content Include="Imagenes\JuventusMilan.jpg" />
     <Content Include="Imagenes\laliga.png" />
     <Content Include="Imagenes\personal.jpg" />
@@ -636,6 +645,62 @@
     </Compile>
     <Compile Include="CrudMisApuestas.aspx.designer.cs">
       <DependentUpon>CrudMisApuestas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas1.aspx.cs">
+      <DependentUpon>CrudMisApuestas1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas1.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas2.aspx.cs">
+      <DependentUpon>CrudMisApuestas2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas2.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas3.aspx.cs">
+      <DependentUpon>CrudMisApuestas3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas3.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas4.aspx.cs">
+      <DependentUpon>CrudMisApuestas4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas4.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas5.aspx.cs">
+      <DependentUpon>CrudMisApuestas5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas5.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas6.aspx.cs">
+      <DependentUpon>CrudMisApuestas6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas6.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestas7.aspx.cs">
+      <DependentUpon>CrudMisApuestas7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestas7.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestas7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CrudMisApuestasMenu.aspx.cs">
+      <DependentUpon>CrudMisApuestasMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CrudMisApuestasMenu.aspx.designer.cs">
+      <DependentUpon>CrudMisApuestasMenu.aspx</DependentUpon>
     </Compile>
     <Compile Include="CrudUsuarios.aspx.cs">
       <DependentUpon>CrudUsuarios.aspx</DependentUpon>
