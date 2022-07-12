@@ -13,7 +13,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Usuario FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -41,7 +41,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -69,7 +69,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -99,7 +99,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -128,7 +128,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -156,7 +156,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -184,7 +184,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -212,7 +212,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -240,7 +240,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -268,7 +268,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -296,7 +296,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -324,7 +324,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -352,7 +352,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -380,7 +380,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -408,7 +408,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -436,7 +436,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -464,7 +464,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -492,7 +492,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -520,7 +520,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT Id_Apuesta FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM apuesta WHERE Ganador='" + Ganador + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
