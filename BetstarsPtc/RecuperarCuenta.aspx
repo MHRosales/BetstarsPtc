@@ -42,7 +42,7 @@
                         <div class="myform-top">
                             <div class="myform-top-left">
                                 <h3>¿Has olvidado tu contraseña?</h3>
-                                <p>Recuperarla sin problemas. </p>
+                                <p> Recuperarla sin problemas. </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>

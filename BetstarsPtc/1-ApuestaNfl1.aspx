@@ -196,7 +196,7 @@
                                 <div>
                                   <br />
                                     <h3>
-                                        <asp:Label ID="Label3" runat="server" Text="How much you want to bet?"></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text="How much do you want to bet?"></asp:Label>
                                          <br />
                                         <asp:DropDownList ID="DropDownList4" runat="server">
                                         <asp:ListItem>$1</asp:ListItem>
@@ -265,10 +265,10 @@
             <br />
             <h1> Type in your data to finalize your bet</h1>
              <div class="form-group">
-            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User Name..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Username..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
-            <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
             <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Save" OnClick="Button2_Click"  />

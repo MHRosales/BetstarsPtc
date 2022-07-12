@@ -25,7 +25,7 @@
             <a class="navbar-brand" href="#">Betstars</a>
 
 <%--            <asp:Button ID="btnregistro" BackColor="Red" BorderColor="Red" type="submit" runat="server" Text="Login" OnClick="btnregistro_Click" />--%>
-                <a class="nav-link" href="1-Login.aspx" font-family="Avenir Next LT Pro"> Login</a>
+                <a class="nav-link" href="1-Login.aspx" font-family="Avenir Next LT Pro"> Login </a>
 
         </nav>
         <div class="my-content">
@@ -38,11 +38,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Recover Password </h1>
+                        <h1> Recover Password </h1>
                         <div class="myform-top">
                             <div class="myform-top-left">
-                                <h3>have you forgotten your password?</h3>
-                                <p>Get it back no problem </p>
+                                <h3> Forgot your password?</h3>
+                                <p> Recover it easily </p>
                             </div>
                             <div class="myform-top-reght">
                                 <%--<i class="fas fa-key"></i>--%>

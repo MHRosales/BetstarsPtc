@@ -44,6 +44,7 @@
                         <div>
                             <h3>
                                 <asp:Label ID="Label1" runat="server" Text="Who will be the winner?"></asp:Label>
+                                <br /> <br />
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>FC Barcelona</asp:ListItem>
@@ -143,15 +144,15 @@
              <asp:TextBox ID="TextBox1" ReadOnly runat="server" placeholder="Score..." type="Puntos1" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <div class="form-group">
-             <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Scored..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+             <asp:TextBox ID="TextBox2" ReadOnly runat="server" placeholder="Score..." type="Puntos2" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
             <br />
             <h1> Type in your data to finalize your bet</h1>
              <div class="form-group">
-            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User Name..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Username..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
-            <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
             <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Save" OnClick="Button2_Click" />
