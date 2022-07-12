@@ -15,7 +15,7 @@
         <link href="EstilosCss/Login2.css" rel="stylesheet" /> 
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title> BetStars | Sign in</title>
+    <title> BetStars | Sign Up </title>
 </head>
 <body>
     <form runat="server" >

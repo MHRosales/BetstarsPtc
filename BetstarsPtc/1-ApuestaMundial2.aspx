@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-ApuestaMundial2.aspx.cs" Inherits="BetstarsPtc._1_ApuestaMundial2" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="1-ApuestaMundial2.aspx.cs" Inherits="BetstarsPtc._1_ApuestaMundial2" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Mundial</title>
+    <title> BetStars | Mundial </title>
 </head>
 <body>
 

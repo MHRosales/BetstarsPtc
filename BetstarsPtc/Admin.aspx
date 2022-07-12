@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="BetstarsPtc.Admin" %>
+﻿ <%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Admin.aspx.cs" Inherits="BetstarsPtc.Admin" %>
 
 <!DOCTYPE html>
 
@@ -16,7 +16,7 @@
        
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title>BetStars | Admin</title>
+    <title>BetStars | Control de Administrador </title>
         <style type="text/css">
             .col-sn-12 {
                 margin-left: 0px;

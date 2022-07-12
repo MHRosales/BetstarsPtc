@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title> BetStars | Ganadores Premier League</title>
+    <title> BetStars | Ganadores Premier League </title>
 </head>
 <body>
 

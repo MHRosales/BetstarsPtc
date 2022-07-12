@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>La  Liga</title>
+    <title> BetStars | La Liga </title>
 </head>
 <body>
 

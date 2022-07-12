@@ -17,7 +17,7 @@
     <script src="SweetAlert/sweetalert2.all.min.js"></script>
     <script src="SweetAlert/sweetalert2.js"></script>
 
-    <title>Ganadores La liga</title>
+    <title> BetStars | La Liga's winners </title>
 </head>
 <body>
 

@@ -16,7 +16,7 @@
        
         <script src="SweetAlert/sweetalert2.all.min.js"></script>
         <script src="SweetAlert/sweetalert2.js"></script>
-    <title> BetStars | La Liga</title>
+    <title> BetStars | La Liga's teams </title>
         <style type="text/css">
             .col-sn-12 {
                 margin-left: 0px;
