@@ -65,7 +65,7 @@
               
                               </div>
                         <div class="form-group"> 
-                                <h4>Ingrese el Id de su usuario</h4>
+                                <h4>Ingrese el Id de su Usuario</h4>
                                 <asp:TextBox ID="TextBox1" runat="server"  placeholder="Usuario..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="10"/>
                             <br />
                              <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"  ></asp:Button> 
