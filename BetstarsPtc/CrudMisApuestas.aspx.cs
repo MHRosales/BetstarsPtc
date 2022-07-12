@@ -118,7 +118,7 @@ namespace BetstarsPtc
 
                     datos1.valorGlobal = usuario;
                     MySqlConnection conexion1 = new MySqlConnection("Server=127.0.0.1; database= rosalesproyecto; Uid=root; pwd=info2022;");
-                    var cmd1 = "SELECT id_Apuesta from mundial WHERE Ganador='" + Ganador + "'AND Puntos_equipo1='" + puntos1 + "' AND Puntos_equipo2='" + puntos2 + "';";
+                    var cmd1 = "SELECT id_Apuesta from ganadormundial WHERE Ganador='" + Ganador + "'AND Puntos_equipo1='" + puntos1 + "' AND Puntos_equipo2='" + puntos2 + "';";
                     MySqlCommand comando1 = new MySqlCommand(cmd1, conexion1);
                     conexion1.Open();
                     int retorno1 = Convert.ToInt32(comando1.ExecuteScalar());
