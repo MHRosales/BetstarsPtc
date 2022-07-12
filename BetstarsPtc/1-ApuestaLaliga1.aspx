@@ -25,7 +25,7 @@
 
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">Betstars</a>
+            <a class="navbar-brand" href="#"> Betstars </a>
 <%--            <asp:Button ID="Regresar" BackColor="Red" BorderColor="Red" runat="server" Text="Regresar" OnClick="Regresar_Click" />--%>
                 <a class="nav-link" href="1-MenuLaliga.aspx" font-family="Avenir Next LT Pro"> Back</a>
 
@@ -40,11 +40,11 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3 myform-cont">
-                        <h1>Your Bet </h1>
+                        <h1> Your Bet </h1>
                          
                         <div>
                             <h3>
-                                <asp:Label ID="Label1" runat="server" Text="Who will be the winner?"></asp:Label>
+                                <asp:Label ID="Label1" runat="server" Text=" Who will be the winner? "></asp:Label>
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>FC Barcelona</asp:ListItem>
@@ -59,7 +59,7 @@
                            <br />
                             <div class="myform-top-left">
                                 <h3>
-                                    <asp:Label ID="Label2" runat="server" Text="Final Score"></asp:Label>
+                                    <asp:Label ID="Label2" runat="server" Text=" Final Score "></asp:Label>
                                     <br />
                                     
                                     
@@ -98,7 +98,7 @@
                                 <div>
                                   <br />
                                     <h3>
-                                        <asp:Label ID="Label3" runat="server" Text="How much you want to bet?"></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text= "How much do you want to bet?" ></asp:Label>
                                          <br />
                                         <asp:DropDownList ID="DropDownList4" runat="server">
                                         <asp:ListItem>$1</asp:ListItem>
@@ -167,10 +167,10 @@
             <br />
             <h1> Type in your data to finalize your bet</h1>
              <div class="form-group">
-            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="User Name..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtUsuario" runat="server" placeholder="Username..." type="Usuario" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <div class="form-group">
-            <asp:TextBox ID="TxtContra" runat="server" placeholder="Pasword..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
+            <asp:TextBox ID="TxtContra" runat="server" placeholder="Password..." type="Pasword" class="form-control" onpaste="return false" minlength="2" MaxLength="15" />
             </div>
              <br />
             <asp:Button ID="Button2" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" runat="server"  Text="Save" OnClick="Button2_Click"  />

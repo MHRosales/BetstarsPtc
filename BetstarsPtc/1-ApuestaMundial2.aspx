@@ -98,7 +98,7 @@
                                 <div>
                                   <br />
                                     <h3>
-                                        <asp:Label ID="Label3" runat="server" Text="How much you want to bet?"></asp:Label>
+                                        <asp:Label ID="Label3" runat="server" Text="How much do you want to bet?"></asp:Label>
                                          <br />
                                         <asp:DropDownList ID="DropDownList4" runat="server">
                                         <asp:ListItem>$1</asp:ListItem>

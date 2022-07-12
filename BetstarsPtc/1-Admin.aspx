@@ -46,12 +46,12 @@
     
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Betstars</a>
+  <a class="navbar-brand" href="#"> Betstars </a>
     <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
    
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
-    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out</a>
+    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out </a>
      
   
 
@@ -63,13 +63,13 @@
                             <h3> </h3>                            
                         </div>
                         <div>
-                            <h5>Add Winners</h5>
+                            <h5> Add Winners </h5>
                               <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server" OnClick="ImageButton1_Click"/>
-                             <h5>Watch Winners</h5>
+                             <h5> View Winners </h5>
                               <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/1.jpg" Width="240px" Height="240px" runat="server"/>
-                            <h5>Watch users</h5>
+                            <h5> View users </h5>
                             <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/2.jpg" Width="240px" Height="240px" runat="server"/>
-                            <h5>Watch Bets</h5>
+                            <h5> View Bets </h5>
                             <asp:ImageButton CssClass="btn-xl" ID="ImageButton4" ImageUrl="~/Imagenes/Ganadores.jpg" Width="240px" Height="240px" runat="server"/>
 
            </div>
