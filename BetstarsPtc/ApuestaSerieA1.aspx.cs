@@ -45,6 +45,12 @@ namespace BetstarsPtc
             //IndicatorsLiteral.Text = datos[1];
             //ImagesLiteral.Text = datos[0];
         }
+        protected void cargarMenu()
+        {
+            //string[] datos = conexiones.ObtenerImagenes();
+            //IndicatorsLiteral.Text = datos[1];
+            //ImagesLiteral.Text = datos[0];
+        }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
