@@ -87,6 +87,7 @@
     <Content Include="1-ApuestaSerieA2.aspx" />
     <Content Include="1-ApuestaUEFA1.aspx" />
     <Content Include="1-ApuestaUEFA2.aspx" />
+    <Content Include="1-editarimagenes.aspx" />
     <Content Include="1-ElegirLogin.aspx" />
     <Content Include="1-GanadoresLaliga.aspx" />
     <Content Include="1-GanadoresMLB.aspx" />
@@ -163,6 +164,7 @@
     <Content Include="CSS\Login.css" />
     <Content Include="CSS\styles4.css" />
     <Content Include="CSS\styles5.css" />
+    <Content Include="editarimagenes.aspx" />
     <Content Include="ElegirLogin.aspx" />
     <Content Include="EstilosCss\Login3.css" />
     <Content Include="EstilosCss\Login2.css" />
@@ -180,40 +182,24 @@
     <Content Include="Imagenes\1.jpg" />
     <Content Include="Imagenes\2.jpg" />
     <Content Include="Imagenes\3.jpg" />
-    <Content Include="Imagenes\ArgentinaMex.jpg" />
-    <Content Include="Imagenes\ArgMex.jpg" />
-    <Content Include="Imagenes\AtleticoBarcelona.jpg" />
     <Content Include="Imagenes\Bandera2.jpg" />
     <Content Include="Imagenes\Bandera3.jpg" />
     <Content Include="Imagenes\betstars.png" />
-    <Content Include="Imagenes\BillsPatriots.jpg" />
-    <Content Include="Imagenes\CelticsWarriors.jpg" />
-    <Content Include="Imagenes\ChelseaCity.jpg" />
     <Content Include="Imagenes\descarga.png" />
+    <Content Include="Imagenes\editar.jfif" />
     <Content Include="Imagenes\introGODXD.mp4" />
     <Content Include="Imagenes\video12.mp4" />
-    <Content Include="Imagenes\JuventusMilan.jpg" />
     <Content Include="Imagenes\laliga.png" />
     <Content Include="Imagenes\personal.jpg" />
     <Content Include="Imagenes\video11.mp4" />
-    <Content Include="Imagenes\ManchesterReal.jpg" />
-    <Content Include="Imagenes\MavericksHeats.jpg" />
-    <Content Include="Imagenes\MetsDodgers.jpg" />
     <Content Include="Imagenes\MLB.jfif" />
     <Content Include="Imagenes\mundial.jpg" />
     <Content Include="Imagenes\nba.jpg" />
     <Content Include="Imagenes\nfl.png" />
     <Content Include="Imagenes\premier.png" />
-    <Content Include="Imagenes\PSGLiverpool.jpg" />
-    <Content Include="Imagenes\QatEcuador.jpg" />
-    <Content Include="Imagenes\RamsBengals.jpg" />
-    <Content Include="Imagenes\RealVirreal.jpg" />
-    <Content Include="Imagenes\RomaNapoles.jpg" />
     <Content Include="Imagenes\SerieA.jpg" />
-    <Content Include="Imagenes\QatarEcuador.jpg" />
     <Content Include="Imagenes\Ganadores.jpg" />
     <Content Include="Imagenes\uefa.jpg" />
-    <Content Include="Imagenes\UnitedLiverpool.jpg" />
     <Content Include="Imagenes\user_icon_143482.png" />
     <Content Include="Imagenes\Video6.mp4" />
     <Content Include="Imagenes\Video7.mp4" />
@@ -225,7 +211,22 @@
     <Content Include="Imagenes\Video3.mp4" />
     <Content Include="Imagenes\Video2.mp4" />
     <Content Include="Imagenes\Video1.mp4" />
-    <Content Include="Imagenes\YankeesSox.jpg" />
+    <Content Include="images\ArgMex.jpg" />
+    <Content Include="images\AtleticoBarcelona.jpg" />
+    <Content Include="images\BillsPatriots.jpg" />
+    <Content Include="images\CelticsWarriors.jpg" />
+    <Content Include="images\ChelseaCity.jpg" />
+    <Content Include="images\JuventusMilan.jpg" />
+    <Content Include="images\ManchesterReal.jpg" />
+    <Content Include="images\MavericksHeats.jpg" />
+    <Content Include="images\MetsDodgers.jpg" />
+    <Content Include="images\PSGLiverpool.jpg" />
+    <Content Include="images\QatEcuador.jpg" />
+    <Content Include="images\RamsBengals.jpg" />
+    <Content Include="images\RealVirreal.jpg" />
+    <Content Include="images\RomaNapoles.jpg" />
+    <Content Include="images\UnitedLiverpool.jpg" />
+    <Content Include="images\YankeesSox.jpg" />
     <Content Include="InicioESPAÑOL.aspx" />
     <Content Include="InicioINGLES.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
@@ -372,6 +373,13 @@
     </Compile>
     <Compile Include="1-ApuestaUEFA2.aspx.designer.cs">
       <DependentUpon>1-ApuestaUEFA2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="1-editarimagenes.aspx.cs">
+      <DependentUpon>1-editarimagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1-editarimagenes.aspx.designer.cs">
+      <DependentUpon>1-editarimagenes.aspx</DependentUpon>
     </Compile>
     <Compile Include="1-ElegirLogin.aspx.cs">
       <DependentUpon>1-ElegirLogin.aspx</DependentUpon>
@@ -734,6 +742,13 @@
     </Compile>
     <Compile Include="datos.cs" />
     <Compile Include="datos1.cs" />
+    <Compile Include="editarimagenes.aspx.cs">
+      <DependentUpon>editarimagenes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editarimagenes.aspx.designer.cs">
+      <DependentUpon>editarimagenes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ElegirLogin.aspx.cs">
       <DependentUpon>ElegirLogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

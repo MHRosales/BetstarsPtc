@@ -71,7 +71,8 @@
                             <asp:ImageButton CssClass="btn-xl" ID="ImageButton3" ImageUrl="~/Imagenes/2.jpg" Width="240px" Height="240px" runat="server"/>
                             <h5> View Bets </h5>
                             <asp:ImageButton CssClass="btn-xl" ID="ImageButton4" ImageUrl="~/Imagenes/Ganadores.jpg" Width="240px" Height="240px" runat="server"/>
-
+                            <h5> Change Images </h5>
+                            <asp:ImageButton CssClass="btn-xl" ID="ImageButton5" ImageUrl="~/Imagenes/editar.jfif" Width="240px" Height="240px" runat="server" OnClick="ImageButton5_Click" />
            </div>
                         
                       

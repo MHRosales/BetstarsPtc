@@ -64,11 +64,11 @@
 
            </div>
                        
-                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Imagenes/RamsBengals.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton1_Click"   />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton1" ImageUrl="~/Images/RamsBengals.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton1_Click"   />
 
                         <br />
                         <br />
-                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Imagenes/BillsPatriots.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton2_Click"   />
+                        <asp:ImageButton CssClass="btn-xl" ID="ImageButton2" ImageUrl="~/Images/BillsPatriots.jpg" Width="600px" Height="300px" runat="server" OnClick="ImageButton2_Click"   />
 
                         <br />
                         <br />

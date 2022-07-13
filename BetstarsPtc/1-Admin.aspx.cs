@@ -18,5 +18,10 @@ namespace BetstarsPtc
         {
             Response.Redirect("1-MenuGanadores.aspx");
         }
+
+        protected void ImageButton5_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("1-editarimagenes.aspx");
+        }
     }
 }

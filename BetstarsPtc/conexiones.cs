@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data;
 using System.Web;
 using MySql.Data.MySqlClient;
 
@@ -13,7 +14,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT Id_Usuario FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {
@@ -36,7 +37,51 @@ namespace BetstarsPtc
 
             return retorno;
         }
-         
+        public static string[] SeleccionarRegistroImagen(int id)
+        {
+            MySqlConnection conn = datos.ObtenerConexion();
+            MySqlCommand comando = new MySqlCommand(String.Format("SELECT * FROM imagenes_carrusel WHERE ID = {0}", id), conn);
+            MySqlDataReader reader = comando.ExecuteReader();
+
+            string[] retorno = new string[2];
+            while (reader.Read())
+            {
+                retorno[0] = reader.GetString(1);
+                retorno[1] = reader.GetString(2);
+            }
+
+            return retorno;
+        }
+        public static DataTable ListarImagenes()
+        {
+            MySqlConnection conn = datos.ObtenerConexion(); //Abrimos la conexion creada.
+            MySqlDataAdapter DA = new MySqlDataAdapter();
+            DA.SelectCommand = new MySqlCommand(string.Format("SELECT * FROM imagenes_carrusel"), conn);
+            DataTable table = new DataTable();
+            DA.Fill(table);
+
+            foreach (DataRow row in table.Rows)
+            {
+                row["Direccion"] = "<img width='100px' class='thumbnail' src='./images/" + row["Direccion"] + "' />";
+            }
+            return table;
+        }
+        public static int ActualizarImagen(int id, string foto)
+        {
+            MySqlConnection conn = datos.ObtenerConexion();
+            int retorno = 0;
+            MySqlCommand comando;
+
+            if (foto != String.Empty)
+                comando = new MySqlCommand(string.Format("UPDATE imagenes_carrusel SET  Direccion = '{0}' WHERE Id = {1}", foto, id), conn);
+            else
+                comando = new MySqlCommand(string.Format("UPDATE imagenes_carrusel SET  Id = {0}", id), conn);
+
+            retorno = comando.ExecuteNonQuery();
+
+            return retorno;
+        }
+
         public static int ApuestasRepetidos(string Ganador, string Puntos1, string Puntos2, string Apuesta, string usuario)
         {
             int valor = 0;
