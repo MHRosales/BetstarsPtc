@@ -198,7 +198,7 @@ namespace BetstarsPtc
             }
             else
             {
-                alerta.Text = "<script>Swal.fire('Algo salio mal', 'Ingresa un ID válido', 'error') </script>";
+                alerta.Text = "<script>Swal.fire('Algo salio mal', 'Ingrese un ID válido', 'error') </script>";
 
             }
             
