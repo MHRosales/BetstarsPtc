@@ -57,7 +57,7 @@ namespace BetstarsPtc
                 obtenernombre.Parameters.Add("@Name", MySqlDbType.VarChar);
 
                 MySqlCommand obtenerapellido = new MySqlCommand(cmd1, connexion2);
-                obtenerapellido.Parameters.Add("@Name", MySqlDbType.VarChar);
+                obtenerapellido.Parameters.Add("0@Name", MySqlDbType.VarChar);
 
                 MySqlCommand obtenerusuario = new MySqlCommand(cmd2, connexion2);
                 obtenerusuario.Parameters.Add("@Name", MySqlDbType.VarChar);

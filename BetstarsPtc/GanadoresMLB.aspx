@@ -47,7 +47,7 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Mets de Nueva York</asp:ListItem>
-                                <asp:ListItem> Los Angeles Dodgers</asp:ListItem>
+                                <asp:ListItem>Los Angeles Dodgers</asp:ListItem>
                                 <asp:ListItem>Los Yankees de Nueva York</asp:ListItem>
                                 <asp:ListItem>Los Red Sox de Boston</asp:ListItem>
                                 </asp:DropDownList>
