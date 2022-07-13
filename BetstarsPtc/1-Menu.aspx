@@ -47,12 +47,14 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
   <!-- Brand -->
   <a class="navbar-brand" href="InicioINGLES.aspx">Betstars</a>
-    <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
     <a class="nav-link body" href="#">My bets</a>
+    <asp:Button ID="Button1" runat="server" Text="Log Out" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="White" Textcolor="White" OnClick="Button1_Click1"  />
+    <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
+   
+    
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
-    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Log out </a>
-     
+   
   
 
 </nav>

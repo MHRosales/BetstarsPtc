@@ -68,26 +68,29 @@
                                 <h4>Ingrese el Id de su Usuario</h4>
                                 <asp:TextBox ID="TextBox1" runat="server"  placeholder="Usuario..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="10"/>
                             <br />
-                             <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click"  ></asp:Button> 
+                             <asp:Button runat="server" Text="Buscar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed1_Click" Width="110px"  ></asp:Button> 
+                             <%--<asp:Button runat="server" Text="Eliminar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed2_Click" Width="110px"  ></asp:Button> --%>
+                             <asp:Button runat="server" Text="Eliminar" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="Red" OnClick="Unnamed2_Click" Width="110px"  ></asp:Button> 
+                                <br />
                             </div>
                             <h4> Nombres</h4>
-                            <asp:TextBox ID="TextBox2" runat="server"  placeholder="Nombres..." type="Id..." class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox2" runat="server"  placeholder="Nombres..." type="Id..." class="form-control"  onpaste="return false" minlength="1" maxlength="25"  ReadOnly="True"/>
                             <h4> Apellidos</h4>
-                            <asp:TextBox ID="TextBox3" runat="server"  placeholder="Apellidos..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox3" runat="server"  placeholder="Apellidos..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                             <h4> Usuario</h4>
-                            <asp:TextBox ID="TextBox4" runat="server"  placeholder=" Usuario..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox4" runat="server"  placeholder=" Usuario..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4> Password</h4>
-                            <asp:TextBox ID="TextBox5" runat="server"  placeholder="Password..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox5" runat="server"  placeholder="Password..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4> Correo</h4>
-                            <asp:TextBox ID="TextBox6" runat="server"  placeholder="Correo..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                            <asp:TextBox ID="TextBox6" runat="server"  placeholder="Correo..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4>Tarjeta</h4>
-                           <asp:TextBox ID="TextBox7" runat="server"  placeholder="Tarjeta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                           <asp:TextBox ID="TextBox7" runat="server"  placeholder="Tarjeta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4>CVV</h4>
-                           <asp:TextBox ID="TextBox8" runat="server"  placeholder="Cvv..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                           <asp:TextBox ID="TextBox8" runat="server"  placeholder="Cvv..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4>Fecha Caducidad Tarjeta</h4>
-                           <asp:TextBox ID="TextBox9" runat="server"  placeholder="Fecha Caducidad Tarjeta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                           <asp:TextBox ID="TextBox9" runat="server"  placeholder="Fecha Caducidad Tarjeta..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <h4>Fecha de Nacimiento</h4>
-                           <asp:TextBox ID="TextBox10" runat="server"  placeholder="Fecha de nacimiento..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25"/>
+                           <asp:TextBox ID="TextBox10" runat="server"  placeholder="Fecha de nacimiento..." type="Id" class="form-control"  onpaste="return false" minlength="1" maxlength="25" ReadOnly="True"/>
                            <br />
                             </div>
                         <br />

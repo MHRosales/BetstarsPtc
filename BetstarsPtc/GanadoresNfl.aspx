@@ -47,9 +47,9 @@
                             
                                 <asp:DropDownList ID="DropDownList1" runat="server">
                                 <asp:ListItem>Los Angeles Rams</asp:ListItem>
-                                <asp:ListItem>Los Cincinati Bengals</asp:ListItem>
-                                <asp:ListItem>Los New England Patriots</asp:ListItem>
-                                <asp:ListItem>Los Buffalo Bills</asp:ListItem>
+                                <asp:ListItem>Cincinati Bengals</asp:ListItem>
+                                <asp:ListItem>New England Patriots</asp:ListItem>
+                                <asp:ListItem>Buffalo Bills</asp:ListItem>
                                 </asp:DropDownList>
                             
                             </h3>

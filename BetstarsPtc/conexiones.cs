@@ -588,5 +588,13 @@ namespace BetstarsPtc
 
             return retorno;
         }
+        public static int EliminarUsuario(int id)
+        {
+            MySqlConnection conn = datos.ObtenerConexion(); //Abrimos la conexion creada.
+            MySqlCommand comando = new MySqlCommand(String.Format("DELETE FROM usuarios WHERE Id_Usuario = {0}", id), conn);
+            int retorno = comando.ExecuteNonQuery();
+
+            return retorno;
+        }
     }
 }

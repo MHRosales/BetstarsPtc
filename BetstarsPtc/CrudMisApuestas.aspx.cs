@@ -20,9 +20,23 @@ namespace BetstarsPtc
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                String nombre = Session["usermane"].ToString();
 
+            }
+            catch (Exception ex)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            cargarMenu();
         }
-
+        protected void cargarMenu()
+        {
+            //string[] datos = conexiones.ObtenerImagenes();
+            //IndicatorsLiteral.Text = datos[1];
+            //ImagesLiteral.Text = datos[0];
+        }
         protected void Unnamed1_Click(object sender, EventArgs e)
         {
 
@@ -81,9 +95,9 @@ namespace BetstarsPtc
                 alerta.Text = "<script>Swal.fire('Algo salio mal', 'Su usuario o contraseña no son correctos', 'error') </script>";
 
             }
-
-
            
+
+
         }
 
         protected void Unnamed2_Click(object sender, EventArgs e)
@@ -124,7 +138,7 @@ namespace BetstarsPtc
                     int retorno1 = Convert.ToInt32(comando1.ExecuteScalar());
                     if (retorno1 != 0)
                     {
-                        alerta.Text = "<script>Swal.fire('Felicidades has ganado ', '¡Gracias por preferirnos!', 'success'); </script>";
+                        alerta.Text = "<script>Swal.fire('Felicidades has ganado', '¡Gracias por preferirnos!', 'success'); </script>";
 
                     }
                     else

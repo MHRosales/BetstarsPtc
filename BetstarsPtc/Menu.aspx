@@ -48,16 +48,17 @@
   <!-- Brand -->
   <a class="navbar-brand" href="InicioESPAÑOL.aspx">Betstars</a>
     <%--<asp:Button ID="Button1" runat="server" Text="Mis Apuestas" BackColor="Red" BorderColor="Red"/>--%>
+    
     <a class="nav-link body" href="CrudMisApuestasMenu.aspx">Mis Apuestas</a>
+    <asp:Button ID="Button1" runat="server" Text="Cerrar seccion" Height="60px" CssClass="btn-xl" BackColor="Red" BorderColor="White" Textcolor="White" OnClick="Button1_Click2" />
 <%--    <asp:Label CssClass="nav-link nav-item" ID="Label1" runat="server" href="#" Text="Mis Apuestas"></asp:Label >--%>
 <%--    <asp:Button ID="Button10" runat="server" Text="Salir" CssClass="nav-item" OnClick="Button10_Click" />--%>
-    <a class="nav-link" href="Idioma.aspx" font-family="Avenir Next LT Pro"> Salir</a>
      
   
 
 </nav>
         <main>
-    <h1>  Elija su liga </h1>
+    <h1>  Elija su liga  </h1>
                     <div class="myform-top">
                         <div class="myform-top-left">
                             <h3> Buena Suerte</h3>                            

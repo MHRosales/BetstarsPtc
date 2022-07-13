@@ -11,7 +11,22 @@ namespace BetstarsPtc
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                String nombre = Session["usermane"].ToString();
 
+            }
+            catch (Exception ex)
+            {
+                Response.Redirect("1-Login.aspx");
+            }
+            cargarMenu();
+        }
+        protected void cargarMenu()
+        {
+            //string[] datos = conexiones.ObtenerImagenes();
+            //IndicatorsLiteral.Text = datos[1];
+            //ImagesLiteral.Text = datos[0];
         }
 
         protected void ImageButton1_Click(object sender, ImageClickEventArgs e)
@@ -54,5 +69,15 @@ namespace BetstarsPtc
             Response.Redirect("1-MenuPremier.aspx");
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            Session.Remove("usermane");
+            Response.Redirect("1-Login.aspx");
+        }
     }
 }
