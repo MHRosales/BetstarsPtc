@@ -32,6 +32,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="Registro.aspx">Regístrarse</a></li>
                         <li class="nav-item"><a class="nav-link" href="ElegirLogin.aspx">Iniciar Sesión</a></li>
+                         <li class="nav-item"><a class="nav-link" href="Idioma.aspx">Idioma</a></li>
+                        
                     </ul>
                 </div>
             </div>

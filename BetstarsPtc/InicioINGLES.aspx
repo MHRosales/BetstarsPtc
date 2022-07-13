@@ -32,6 +32,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="1-Registro.aspx">Sign up</a></li>
                         <li class="nav-item"><a class="nav-link" href="1-ElegirLogin.aspx">Log In</a></li>
+                         <li class="nav-item"><a class="nav-link" href="Idioma.aspx">Language</a></li>
                     </ul>
                 </div>
             </div>
