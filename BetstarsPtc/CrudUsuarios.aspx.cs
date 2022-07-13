@@ -213,7 +213,7 @@ namespace BetstarsPtc
                 }
             }
             else
-                alerta.Text = "<script>Swal.fire('Algo salio mal', 'Revise sus datos', 'error') </script>";
+                alerta.Text = "<script>Swal.fire('Algo salio mal', 'Revisa sus datos', 'error') </script>";
 
 
         }
