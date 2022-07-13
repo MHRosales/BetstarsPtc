@@ -37,11 +37,10 @@ namespace BetstarsPtc
             string puntos2 = DropDownList3.SelectedValue.ToString();
             TextBox2.Text = puntos2;
 
-<<<<<<< HEAD
             alerta.Text = "<script>Swal.fire('Verifique sus datos', 'Administrador', 'success'); </script>";
-=======
+
             alerta.Text = "<script>Swal.fire('Berifica sus  datos', 'Administrador', 'success'); </script>";
->>>>>>> 67576883bbb1bd7ccb6b09fcf3b622d3a4b5242b
+
 
         }
         protected void cargarMenu()
