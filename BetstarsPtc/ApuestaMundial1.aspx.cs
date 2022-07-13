@@ -33,7 +33,7 @@ namespace BetstarsPtc
             TextBox2.Text = puntos2;
             string puntos3 = DropDownList4.SelectedValue.ToString();
             TextBox3.Text = puntos3;
-            alerta.Text = "<script>Swal.fire('Berifica sus datos en la parte inferior', '¡Gracias por preferirnos!', 'success'); </script>";
+            alerta.Text = "<script>Swal.fire('Verifique sus datos en la parte inferior', '¡Gracias por preferirnos!', 'success'); </script>";
            
         }
 
