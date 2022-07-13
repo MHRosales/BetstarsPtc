@@ -11,7 +11,16 @@ namespace BetstarsPtc
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                String nombre = Session["usermane"].ToString();
 
+            }
+            catch (Exception ex)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            cargarMenu();
         }
 
         protected void Regresar_Click(object sender, EventArgs e)
@@ -28,8 +37,18 @@ namespace BetstarsPtc
             string puntos2 = DropDownList3.SelectedValue.ToString();
             TextBox2.Text = puntos2;
 
+<<<<<<< HEAD
             alerta.Text = "<script>Swal.fire('Verifique sus datos', 'Administrador', 'success'); </script>";
+=======
+            alerta.Text = "<script>Swal.fire('Berifica sus  datos', 'Administrador', 'success'); </script>";
+>>>>>>> 67576883bbb1bd7ccb6b09fcf3b622d3a4b5242b
 
+        }
+        protected void cargarMenu()
+        {
+            //string[] datos = conexiones.ObtenerImagenes();
+            //IndicatorsLiteral.Text = datos[1];
+            //ImagesLiteral.Text = datos[0];
         }
 
         protected void Button2_Click(object sender, EventArgs e)

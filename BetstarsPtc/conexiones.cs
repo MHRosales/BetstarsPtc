@@ -13,7 +13,7 @@ namespace BetstarsPtc
         {
             int valor = 0;
             MySqlConnection conexion = datos.ObtenerConexion();
-            MySqlCommand cmd = new MySqlCommand("SELECT ID FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
+            MySqlCommand cmd = new MySqlCommand("SELECT Id_Usuario FROM usuarios WHERE Nombre_Usuario='" + usuario + "'", conexion);
             valor = Convert.ToInt32(cmd.ExecuteScalar());
             if (valor != 0)
             {

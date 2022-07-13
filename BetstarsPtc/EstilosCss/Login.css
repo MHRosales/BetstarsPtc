@@ -88,10 +88,13 @@ textarea.form-control:focus{
         background: #de651e;
     }
 .btn-xl {
-    padding: 1rem 1rem;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
     font-size: 0.85rem;
     font-weight: 700;
     text-transform: uppercase;
-    border: none;
     border-radius: 3.5rem;
+    width: 56px;
+    margin-right: 0px;
 }
